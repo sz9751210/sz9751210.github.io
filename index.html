@@ -97,7 +97,7 @@
       <h1 class="site-title">艾倫的程式之旅</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">記錄自己的學習歷程。避免以後的自己踩坑時可以有紀錄可以找。</p>
+      <p class="site-subtitle" itemprop="description">記錄自己的學習歷程。避免以後的自己踩坑時有跡可循，偶爾也會放一些跟自己興趣有關的文章。</p>
   </div>
 
   <div class="site-nav-right">
@@ -144,6 +144,90 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://sz9751210.github.io/2022/06/12/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Alan">
+      <meta itemprop="description" content="Know How, Know Why, Know What and When">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="艾倫的程式之旅">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/06/12/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/" class="post-title-link" itemprop="url">Jenkins 安裝教學(CentOS)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2022-06-12 06:50:01 / 修改時間：07:14:28" itemprop="dateCreated datePublished" datetime="2022-06-12T06:50:01+08:00">2022-06-12</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CentOS-7-安裝及設定Jenkins"><a href="#CentOS-7-安裝及設定Jenkins" class="headerlink" title="CentOS 7 安裝及設定Jenkins"></a>CentOS 7 安裝及設定Jenkins</h1><h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>開源且免費的CI工具，由Java編寫的，提供了持續構建以及部署的功能，是一個自動化的server</p>
+<h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><ul>
+<li>CentOS 7</li>
+</ul>
+<h2 id="安裝步驟"><a href="#安裝步驟" class="headerlink" title="安裝步驟"></a>安裝步驟</h2><h3 id="1-添加Jenkins-Repository"><a href="#1-添加Jenkins-Repository" class="headerlink" title="1. 添加Jenkins Repository"></a>1. 添加Jenkins Repository</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@jenkins ~]<span class="comment"># wget --no-check-certificate  -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo</span></span><br><span class="line"></span><br><span class="line">[root@jenkins ~]<span class="comment"># rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-安裝Jenkins以及Java"><a href="#2-安裝Jenkins以及Java" class="headerlink" title="2. 安裝Jenkins以及Java"></a>2. 安裝Jenkins以及Java</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@jenkins ~]<span class="comment"># yum install -y jenkins java-1.8.0-openjdk</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-啟動並啟用Jenkins"><a href="#3-啟動並啟用Jenkins" class="headerlink" title="3. 啟動並啟用Jenkins"></a>3. 啟動並啟用Jenkins</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@jenkins ~]<span class="comment"># systemctl start jenkins*</span></span><br><span class="line"></span><br><span class="line">[root@jenkins ~]<span class="comment"># systemctl enable jenkins*</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-在防火牆開啟80以及8080-的port"><a href="#4-在防火牆開啟80以及8080-的port" class="headerlink" title="4. 在防火牆開啟80以及8080 的port"></a>4. 在防火牆開啟80以及8080 的port</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@jenkins ~]<span class="comment"># firewall-cmd --zone=public --add-port=8080/tcp --permanent</span></span><br><span class="line">success</span><br><span class="line">[root@jenkins ~]<span class="comment"># firewall-cmd --zone=public --add-service=http --permanent</span></span><br><span class="line">success</span><br><span class="line">[root@jenkins ~]<span class="comment"># firewall-cmd --reload</span></span><br><span class="line">success</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-透過網頁打開Jenkins"><a href="#5-透過網頁打開Jenkins" class="headerlink" title="5. 透過網頁打開Jenkins"></a>5. 透過網頁打開Jenkins</h3><p>存取URL：http://<IP>:8080</p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1654989194/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/Untitled_bspi6i.png" alt="Untitled"></p>
+<p>管理員密碼創建並存儲在日誌文件 <strong>/var/log/jenkins/jenkins.log</strong> 中。接著透過以下指令取得初始密碼</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># grep -A 5 password /var/log/jenkins/jenkins.log</span></span><br><span class="line">Jenkins initial setup is required. An admin user has been created and a password generated.</span><br><span class="line">Please use the following password to proceed to installation:</span><br><span class="line"></span><br><span class="line">Admin password</span><br><span class="line"></span><br><span class="line">This may also be found at: /var/lib/jenkins/secrets/initialAdminPassword</span><br></pre></td></tr></table></figure>
+
+<p>接著安裝插件，可直接選Install suggested plugins</p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1654989197/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/Untitled1_gln4ke.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1654989193/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/Untitled_2_edvkvp.png" alt="Untitled"></p>
+<p>接著來建立管理者帳號</p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1654989194/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/Untitled_3_bs2l5r.png" alt="Untitled"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1654989194/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/Untitled_4_cmkm0f.png" alt="Untitled"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1654989194/Jenkins-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-CentOS/Untitled_5_zwfmqu.png" alt="Untitled"></p>
+<p>到此所有設定都已完成，即可開始使用Jenkins</p>
+<h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><p><a target="_blank" rel="noopener" href="https://www.linuxtechi.com/install-configure-jenkins-on-centos-7-rhel-7/">How to install and Configure Jenkins on CentOS 7 and RHEL 7 (linuxtechi.com)</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -658,7 +742,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
