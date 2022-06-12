@@ -20,20 +20,28 @@
     var CONFIG = {"hostname":"sz9751210.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="書的目的：教導如何使用刻意練習來達到學習技能並邁向專家的路">
+  <meta name="description" content="環境建置本篇github repo在此 -&gt;  TICK_Stack-tutorial">
 <meta property="og:type" content="article">
-<meta property="og:title" content="刻意練習：原創者全面解析, 比天賦更關鍵的學習法">
-<meta property="og:url" content="http://sz9751210.github.io/2022/06/05/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/index.html">
+<meta property="og:title" content="TICK_Stack-tutorial">
+<meta property="og:url" content="http://sz9751210.github.io/2022/06/12/TICK-Stack-tutorial/index.html">
 <meta property="og:site_name" content="艾倫的程式之旅">
-<meta property="og:description" content="書的目的：教導如何使用刻意練習來達到學習技能並邁向專家的路">
+<meta property="og:description" content="環境建置本篇github repo在此 -&gt;  TICK_Stack-tutorial">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-06-05T04:56:00.000Z">
-<meta property="article:modified_time" content="2022-06-12T04:34:34.883Z">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/setup_influx_ssivbq.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/setup_kapacitor_kzlb2j.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032930/TICK_Stack-tutorial/alert_g93hql.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/script_ivh2a8.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032930/TICK_Stack-tutorial/manage_task_k03jmy.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032930/TICK_Stack-tutorial/alert_history_m6nepe.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032934/TICK_Stack-tutorial/chronograf_tzgpio.png">
+<meta property="article:published_time" content="2022-06-12T11:12:00.000Z">
+<meta property="article:modified_time" content="2022-06-12T11:27:00.133Z">
 <meta property="article:author" content="Alan">
-<meta property="article:tag" content="books">
+<meta property="article:tag" content="devops">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/setup_influx_ssivbq.png">
 
-<link rel="canonical" href="http://sz9751210.github.io/2022/06/05/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/">
+<link rel="canonical" href="http://sz9751210.github.io/2022/06/12/TICK-Stack-tutorial/">
 
 
 <script id="page-configurations">
@@ -46,7 +54,7 @@
   };
 </script>
 
-  <title>刻意練習：原創者全面解析, 比天賦更關鍵的學習法 | 艾倫的程式之旅</title>
+  <title>TICK_Stack-tutorial | 艾倫的程式之旅</title>
   
 
 
@@ -168,7 +176,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://sz9751210.github.io/2022/06/05/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/">
+    <link itemprop="mainEntityOfPage" href="http://sz9751210.github.io/2022/06/12/TICK-Stack-tutorial/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655008790/mai1n_x82rsf.png">
@@ -181,7 +189,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          刻意練習：原創者全面解析, 比天賦更關鍵的學習法
+          TICK_Stack-tutorial
         </h1>
 
         <div class="post-meta">
@@ -190,23 +198,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
+              
 
-              <time title="創建時間：2022-06-05 12:56:00" itemprop="dateCreated datePublished" datetime="2022-06-05T12:56:00+08:00">2022-06-05</time>
+              <time title="創建時間：2022-06-12 19:12:00 / 修改時間：19:27:00" itemprop="dateCreated datePublished" datetime="2022-06-12T19:12:00+08:00">2022-06-12</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2022-06-12 12:34:34" itemprop="dateModified" datetime="2022-06-12T12:34:34+08:00">2022-06-12</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分類於</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/" itemprop="url" rel="index"><span itemprop="name">閱讀心得</span></a>
+                  <a href="/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" itemprop="url" rel="index"><span itemprop="name">程式設計</span></a>
                 </span>
             </span>
 
@@ -221,28 +223,36 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>書的目的：教導如何使用刻意練習來達到學習技能並邁向專家的路</p>
+        <h1 id="環境建置"><a href="#環境建置" class="headerlink" title="環境建置"></a>環境建置</h1><p>本篇github repo在此 -&gt;  <a target="_blank" rel="noopener" href="https://github.com/sz9751210/TICK_Stack-tutorial">TICK_Stack-tutorial</a></p>
 <span id="more"></span>
 
+<h2 id="telegraf設定"><a href="#telegraf設定" class="headerlink" title="telegraf設定"></a>telegraf設定</h2><p>使用telegraf.conf設定輸出資料庫</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[[outputs.influxdb]]</span><br><span class="line">  urls = [&quot;http://influxdb:8086&quot;]</span><br><span class="line">  database = &quot;telegraf&quot; # 要使用的資料庫</span><br><span class="line">  username = &quot;admin&quot;</span><br><span class="line">  password = &quot;admin&quot; </span><br></pre></td></tr></table></figure>
+<h2 id="influxdb設定"><a href="#influxdb設定" class="headerlink" title="influxdb設定"></a>influxdb設定</h2><p>使用configuration.env設定帳密以及資料庫</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># InfluxDB options</span><br><span class="line">INFLUXDB_DB=telegraf</span><br><span class="line">INFLUXDB_ADMIN_USER=admin</span><br><span class="line">INFLUXDB_ADMIN_PASSWORD=admin</span><br></pre></td></tr></table></figure>
+<h2 id="kapacitor設定"><a href="#kapacitor設定" class="headerlink" title="kapacitor設定"></a>kapacitor設定</h2><p>使用kapacitor.conf</p>
 <ul>
-<li>The book in 3 Sentences 用三段話說明這本書的內容<ul>
-<li>天才並非真的存在，刻意練習才是真正通往專家的唯一途徑</li>
-<li>練習的質與量勝過於單純的練習量</li>
-<li>專注投入與信念至關重要</li>
+<li>設定讀取的資料庫<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[[influxdb]]</span><br><span class="line">  enabled = true</span><br><span class="line">  name = &quot;telegraf&quot;</span><br><span class="line">  default = false</span><br><span class="line">  urls = [&quot;http://influxdb:8086&quot;]</span><br><span class="line">  username = &quot;admin&quot;</span><br><span class="line">  password = &quot;admin&quot;</span><br></pre></td></tr></table></figure></li>
+<li>設定告警telegram<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[telegram]</span><br><span class="line">  enabled = true</span><br><span class="line">  url = &quot;https://api.telegram.org/bot&quot;</span><br><span class="line">  token = &quot;bot-token&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="啟動環境"><a href="#啟動環境" class="headerlink" title="啟動環境"></a>啟動環境</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose up</span><br></pre></td></tr></table></figure>
+接著去本地chronograf <code>http://IP:8888</code><br>設定influxdb以及kapacitor</li>
+<li>http:// IP :8086 for influxdb</li>
+<li>http:// IP :9092 for kapacitor<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/setup_influx_ssivbq.png" alt="Alt text"><br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/setup_kapacitor_kzlb2j.png" alt="Alt text"></li>
 </ul>
-</li>
-<li>How the Book Changed Me? 這本書為我帶來什麼改變<ul>
-<li>讓練習在你眼中成為一種投資，而不是耗費</li>
-<li>沒有人可以不投注及大量的練習就發展出非凡技能</li>
-<li></li>
+<h1 id="告警設計"><a href="#告警設計" class="headerlink" title="告警設計"></a>告警設計</h1><p>參考cpu_alert.tick.example</p>
+<h1 id="使用告警"><a href="#使用告警" class="headerlink" title="使用告警"></a>使用告警</h1><h2 id="透過kapacitor"><a href="#透過kapacitor" class="headerlink" title="透過kapacitor"></a>透過kapacitor</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">cd /var/lib/kapacitor</span><br><span class="line"><span class="meta">#</span><span class="bash"> cpu_alert為任務task_id</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 定義任務</span></span><br><span class="line">kapacitor define cpu_alert -tick cpu_alert.tick -type stream -dbrp telegraf.autogen</span><br><span class="line"><span class="meta">#</span><span class="bash"> 啟動任務</span></span><br><span class="line">kapacitor enable cpu_alert</span><br><span class="line"><span class="meta">#</span><span class="bash"> 停止任務</span></span><br><span class="line">kapacitor disable cpu_alert</span><br><span class="line"><span class="meta">#</span><span class="bash"> 刪除任務</span></span><br><span class="line">kapacitor delete tasks cpu_alert</span><br><span class="line"><span class="meta">#</span><span class="bash"> 列出所有任務</span></span><br><span class="line">kapacitor list tasks</span><br></pre></td></tr></table></figure>
+<h2 id="透過chronograf"><a href="#透過chronograf" class="headerlink" title="透過chronograf"></a>透過chronograf</h2><p>選到左邊的alerting -&gt; write TICKscript<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032930/TICK_Stack-tutorial/alert_g93hql.png" alt="Alt text"><br>輸入task_id -&gt; 把script貼上 -&gt; 選擇類型為stream -&gt; 選擇db -&gt; 按下儲存後下方會判斷script是否正常<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032931/TICK_Stack-tutorial/script_ivh2a8.png" alt="Alt text"><br>完成後可回到manage task管理當前task 可透過點擊enabled下方圓點一鍵啟動/停用任務<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032930/TICK_Stack-tutorial/manage_task_k03jmy.png" alt="Alt text"><br>alert history可查看告警訊息</p>
+<ul>
+<li>green:OK </li>
+<li>white:INFO,WARN </li>
+<li>red:CRIT<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032930/TICK_Stack-tutorial/alert_history_m6nepe.png" alt="Alt text"></li>
 </ul>
-</li>
-<li>My Top 3 Quotes 我最喜歡的 3 句 Quotes<ul>
-<li>人之所以停止學習、不再進步，不是因為到達天生能力的極限，而是因為某些原因不再練習，或者從未開始練習。</li>
-<li>技能越高超，心智表徵越成熟，越了解這領域，代表自己更懂欠缺甚麼，也因此更能發揮刻意練習的效果，磨練技巧可以改善心智表徵，心智表徵又有助於技能進步</li>
-<li>當你不再相信自己能達成目標時千萬別放棄，先和自己約定好，等到重回先前水準或突破高原期後再說，到時大概就會繼續下去了。</li>
-</ul>
-</li>
+<p>============================</p>
+<h2 id="查看alert寫回db訊息"><a href="#查看alert寫回db訊息" class="headerlink" title="查看alert寫回db訊息"></a>查看alert寫回db訊息</h2><p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655032934/TICK_Stack-tutorial/chronograf_tzgpio.png" alt="Alt text"></p>
+<h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/sz9751210/docker-telegraf-influx-grafana-stack">https://github.com/sz9751210/docker-telegraf-influx-grafana-stack</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.influxdata.com/time-series-platform/kapacitor/">https://www.influxdata.com/time-series-platform/kapacitor/</a></li>
+<li><a target="_blank" rel="noopener" href="https://tanjiti.github.io/2018/12/18/%E5%BC%80%E6%BA%90kapacitor%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/">https://tanjiti.github.io/2018/12/18/%E5%BC%80%E6%BA%90kapacitor%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</a></li>
 </ul>
 
     </div>
@@ -253,7 +263,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/books/" rel="tag"># books</a>
+              <a href="/tags/devops/" rel="tag"># devops</a>
           </div>
 
         
@@ -262,13 +272,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/10/03/flow/" rel="prev" title="心流：高手都在研究的最優體驗心理學">
-      <i class="fa fa-chevron-left"></i> 心流：高手都在研究的最優體驗心理學
+    <a href="/2022/06/12/python-%E5%9F%BA%E7%A4%8E/" rel="prev" title="python 基礎">
+      <i class="fa fa-chevron-left"></i> python 基礎
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/06/05/LeetCode-01-Two-Sum/" rel="next" title="LeetCode 01. Two Sum">
-      LeetCode 01. Two Sum <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -327,6 +334,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">環境建置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#telegraf%E8%A8%AD%E5%AE%9A"><span class="nav-number">1.1.</span> <span class="nav-text">telegraf設定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#influxdb%E8%A8%AD%E5%AE%9A"><span class="nav-number">1.2.</span> <span class="nav-text">influxdb設定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kapacitor%E8%A8%AD%E5%AE%9A"><span class="nav-number">1.3.</span> <span class="nav-text">kapacitor設定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%95%9F%E5%8B%95%E7%92%B0%E5%A2%83"><span class="nav-number">1.4.</span> <span class="nav-text">啟動環境</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%91%8A%E8%AD%A6%E8%A8%AD%E8%A8%88"><span class="nav-number">2.</span> <span class="nav-text">告警設計</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%91%8A%E8%AD%A6"><span class="nav-number">3.</span> <span class="nav-text">使用告警</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%80%8F%E9%81%8Ekapacitor"><span class="nav-number">3.1.</span> <span class="nav-text">透過kapacitor</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%80%8F%E9%81%8Echronograf"><span class="nav-number">3.2.</span> <span class="nav-text">透過chronograf</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8Balert%E5%AF%AB%E5%9B%9Edb%E8%A8%8A%E6%81%AF"><span class="nav-number">3.3.</span> <span class="nav-text">查看alert寫回db訊息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="nav-number">3.4.</span> <span class="nav-text">參考資料</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
