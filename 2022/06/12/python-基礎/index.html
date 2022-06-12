@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"sz9751210.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="python 基礎Python 基本語法 python 語法的後綴名是以.py 結尾  python 執行方式 使用交互介面執行 使用 python test.py 命令執行 使用.&#x2F;test.py 執行">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python 基礎">
+<meta property="og:url" content="http://sz9751210.github.io/2022/06/12/python-%E5%9F%BA%E7%A4%8E/index.html">
+<meta property="og:site_name" content="艾倫的程式之旅">
+<meta property="og:description" content="python 基礎Python 基本語法 python 語法的後綴名是以.py 結尾  python 執行方式 使用交互介面執行 使用 python test.py 命令執行 使用.&#x2F;test.py 執行">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2022-06-12T09:45:00.000Z">
+<meta property="article:modified_time" content="2022-06-12T09:47:31.683Z">
+<meta property="article:author" content="Alan">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://sz9751210.github.io/2022/06/12/python-%E5%9F%BA%E7%A4%8E/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>python 基礎 | 艾倫的程式之旅</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">艾倫的程式之旅</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">記錄自己的學習歷程。避免以後的自己踩坑時有跡可循，偶爾也會放一些跟自己興趣有關的文章。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://sz9751210.github.io/2022/06/12/python-%E5%9F%BA%E7%A4%8E/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655008790/mai1n_x82rsf.png">
+      <meta itemprop="name" content="Alan">
+      <meta itemprop="description" content="Know How, Know Why, Know What and When">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="艾倫的程式之旅">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          python 基礎
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2022-06-12 17:45:00 / 修改時間：17:47:31" itemprop="dateCreated datePublished" datetime="2022-06-12T17:45:00+08:00">2022-06-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" itemprop="url" rel="index"><span itemprop="name">程式設計</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="python-基礎"><a href="#python-基礎" class="headerlink" title="python 基礎"></a>python 基礎</h1><h2 id="Python-基本語法"><a href="#Python-基本語法" class="headerlink" title="Python 基本語法"></a>Python 基本語法</h2><ul>
+<li>python 語法的後綴名是以.py 結尾</li>
+</ul>
+<h3 id="python-執行方式"><a href="#python-執行方式" class="headerlink" title="python 執行方式"></a>python 執行方式</h3><ul>
+<li>使用交互介面執行</li>
+<li>使用 python test.py 命令執行</li>
+<li>使用./test.py 執行</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="python-標示符"><a href="#python-標示符" class="headerlink" title="python 標示符"></a>python 標示符</h3><ul>
+<li>以單下劃線開頭的屬性，表示是類的私有屬性(包括方法，變量)。如:<code>_foo</code>表示不能直接訪問的類屬性。</li>
+<li>以雙下劃線開頭的 <code>__foo</code> 代表類的私有成員；</li>
+<li>以雙下劃線開頭和結尾的 <code>__foo__</code> 代表 Python 里特殊方法專用的標識，如 <code>__init__()</code> 代表類的構造函數。</li>
+</ul>
+<h3 id="換行縮進"><a href="#換行縮進" class="headerlink" title="換行縮進"></a>換行縮進</h3><ul>
+<li>python 不使用{}來控制 code 範圍，而使用縮進來控制。一般都使用四個空格做縮進(PEP8規定)。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="comment"># -*- coding: UTF-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;hello world&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Answer:&quot;</span>);</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;true&quot;</span>);</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Answer:&quot;</span>);</span><br><span class="line">    <span class="comment"># 沒有嚴格縮進，在執行時會報錯</span></span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;false&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="python-引號"><a href="#python-引號" class="headerlink" title="python 引號"></a>python 引號</h3><ul>
+<li>Python 可以使用引號<code>(&#39;)</code>、雙引號<code>(&quot;)</code>、三引號<code>( &#39;&#39;&#39; 或 &quot;&quot;&quot; )</code> 來表示字符串。</li>
+<li>三引號(“””)可以由多行組成，是編寫多行文本的快捷語法，常用於文檔字符串。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 單引號以及雙引號</span></span><br><span class="line"><span class="string">&#x27;This is a string&#x27;</span></span><br><span class="line"><span class="string">&quot;This is a string&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 引號包含引號</span></span><br><span class="line"><span class="string">&quot;We call it &#x27;Dog&#x27;...... &quot;</span> <span class="comment"># 雙引號內可包含單引號</span></span><br><span class="line"><span class="string">&#x27;We call it &quot;Dog&quot;...... &#x27;</span> <span class="comment"># 單引號內可包含雙引號</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 三雙引號可直接換行</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;haha,</span></span><br><span class="line"><span class="string">this is a dog.&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 三單引號需要換行符</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;haha, \</span></span><br><span class="line"><span class="string">this is a dog.&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="python-注釋"><a href="#python-注釋" class="headerlink" title="python 注釋"></a>python 注釋</h3><ul>
+<li>python 中單行註釋採用<code>#</code>開頭</li>
+<li>python 中多行註釋使用三個單引號<code>(&#39;&#39;&#39;)</code>或三個雙引號<code>(&quot;&quot;&quot;)</code></li>
+<li>多行註釋通常用來為 Python 文件、模塊、類或者函數等添加版權或者功能描述信息。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 單行</span></span><br><span class="line"><span class="comment"># 註釋內容</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 多行</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;(&quot;&quot;&quot;)</span></span><br><span class="line"><span class="string">使用 3 個單引號分別作為註釋的開頭和結尾 可以一次性註釋多行內容 這裡面的內容全部是註釋內容</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span>(<span class="string">&quot;&quot;&quot;)</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Python-空行"><a href="#Python-空行" class="headerlink" title="Python 空行"></a>Python 空行</h3><ul>
+<li>函數之間或 class 的方法之間用空行分隔，表示一段新的代碼的開始。class 和函數入口之間也用一行空行分隔，以突出函數入口的開始。</li>
+</ul>
+<h3 id="多個語句組成的代碼組"><a href="#多個語句組成的代碼組" class="headerlink" title="多個語句組成的代碼組"></a>多個語句組成的代碼組</h3><ul>
+<li>縮進相同的一組語句構成一個代碼塊，我們稱之代碼組。</li>
+<li>子句: 像 if、while、def 和 class 這樣的複合語句，首行以關鍵字開始，以冒號( : )結束，該行之後的一行或多行代碼構成代碼組。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> expression:</span><br><span class="line">    suite</span><br><span class="line"><span class="keyword">elif</span> expression:</span><br><span class="line">    suite</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    suite</span><br></pre></td></tr></table></figure>
+
+<h2 id="python-變量類型"><a href="#python-變量類型" class="headerlink" title="python 變量類型"></a>python 變量類型</h2><ul>
+<li>變量可以指定不同的數據類型，這些變量可以存儲整數，小數或字符。</li>
+</ul>
+<h3 id="python-變量賦值"><a href="#python-變量賦值" class="headerlink" title="python 變量賦值"></a>python 變量賦值</h3><ul>
+<li>變量賦值不需要聲明類型，變數的資料型別將根據分配給它的值的型別自動來定義。</li>
+<li>每個變量在使用前必須賦值，變量賦值以後該變量才會被創建</li>
+<li>不可以取保留字</li>
+<li>只能由大小寫字母、數字、 _ 、 中文組成變數名稱</li>
+<li>英文字母大小寫視為不同的變數名稱</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">counter = <span class="number">100</span> <span class="comment"># 賦值整型變量</span></span><br><span class="line">miles = <span class="number">1000.0</span> <span class="comment"># 浮點型</span></span><br><span class="line">name = <span class="string">&quot;alan&quot;</span> <span class="comment"># 字符串</span></span><br><span class="line"><span class="built_in">print</span>(count),</span><br><span class="line"><span class="built_in">print</span>(miles),</span><br><span class="line"><span class="built_in">print</span>(name);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>多變量賦值，變數之間用<code>，</code>分隔</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 2 被分配給 x，4.124 被分配給 y，字串 Python 被分配給 z。</span></span><br><span class="line">x, y, z = <span class="number">2</span>, <span class="number">4.124</span>, <span class="string">&quot;Python&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 三個變數都是Blue</span></span><br><span class="line">x = y = z = <span class="string">&quot;Blue&quot;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>刪除變數</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">del</span> x</span><br></pre></td></tr></table></figure>
+
+<h3 id="python-資料型態"><a href="#python-資料型態" class="headerlink" title="python 資料型態"></a>python 資料型態</h3><ul>
+<li>數值型態：<ul>
+<li>int</li>
+<li>float</li>
+<li>bool</li>
+</ul>
+</li>
+<li>字串型態：<ul>
+<li>str</li>
+<li>chr</li>
+</ul>
+</li>
+<li>容器型態：<ul>
+<li>list</li>
+<li>dict</li>
+<li>tuple</li>
+</ul>
+</li>
+</ul>
+<h3 id="Python-基本的純量類型"><a href="#Python-基本的純量類型" class="headerlink" title="Python 基本的純量類型"></a>Python 基本的純量類型</h3><ul>
+<li>整數（int）</li>
+<li>浮點數（float）</li>
+<li>文字（str）</li>
+<li>布林（bool）</li>
+<li>None（NoneType）</li>
+</ul>
+<h4 id="整數和浮點數"><a href="#整數和浮點數" class="headerlink" title="整數和浮點數"></a>整數和浮點數</h4><ul>
+<li>整數與浮點數使用數學運算符號進行運算</li>
+<li>會搭配運算符號進行運算<ul>
+<li><code>+</code> 、 <code>-</code> 、 <code>*</code> 、 <code>/</code> ：加減乘除</li>
+<li><code>**</code> ：次方</li>
+<li><code>%</code> ：回傳餘數</li>
+<li><code>//</code> ：回傳商數</li>
+</ul>
+</li>
+</ul>
+<h4 id="字串"><a href="#字串" class="headerlink" title="字串"></a>字串</h4><ul>
+<li>我們使用成雙的單引號 ‘’ 或成對的雙引號 “” 來建立文字類型</li>
+<li>如果建立的字串有包含不成對的引號，則需要使用跳脫字元<code>\</code>來完成宣告</li>
+</ul>
+<h5 id="python-格式化字串"><a href="#python-格式化字串" class="headerlink" title="python 格式化字串"></a>python 格式化字串</h5><ul>
+<li>%-formatting</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;I am %s.%s&quot;</span>%(<span class="string">&quot;Alan&quot;</span>,<span class="string">&quot;wang&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line">I am Alan.wang</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>str.format()（Python 2.6+）</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 基本使用</span></span><br><span class="line">s = <span class="string">&#x27;I am &#123;first_name&#125; &#123;middle_name&#125;. &#123;last_name&#125;&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(s.<span class="built_in">format</span>(first_name=<span class="string">&#x27;Monkey&#x27;</span>, middle_name=<span class="string">&#x27;D&#x27;</span>, last_name=<span class="string">&#x27;Luffy&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line">I am Monkey D. Luffy</span><br><span class="line"></span><br><span class="line"><span class="comment"># 調整輸出樣式：^(居中）、&lt;（向左對齊）、&gt;（向右對齊）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;&#123;:^10s&#125;&#x27;</span>.<span class="built_in">format</span>(<span class="string">&#x27;a&#x27;</span>)) <span class="comment"># ^：居中對齊，10：寬度為10，s：以string輸出</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line">    a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 以 &#123;:,&#125; 的方式以逗號分隔數字</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;&#123;:,&#125;&#x27;</span>.<span class="built_in">format</span>(<span class="number">100000000</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="number">100</span>,<span class="number">000</span>,<span class="number">000</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>f-string（Python 3.6+）</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># variables</span></span><br><span class="line">first_name = <span class="string">&quot;Monkey&quot;</span></span><br><span class="line">middle_name = <span class="string">&quot;D&quot;</span></span><br><span class="line">last_name = <span class="string">&quot;Luffy&quot;</span></span><br><span class="line"><span class="comment"># f-string</span></span><br><span class="line"><span class="string">f&quot;I am <span class="subst">&#123;first_name&#125;</span> <span class="subst">&#123;middle_name&#125;</span>. <span class="subst">&#123;last_name&#125;</span>&quot;</span></span><br><span class="line"><span class="comment"># Output: &quot;I am Monkey D. Luffy&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="布林"><a href="#布林" class="headerlink" title="布林"></a>布林</h4><ul>
+<li>進行判斷條件或者資料篩選的時候會需要仰賴布林（bool），布林只有 True 與 False 這兩個值。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">False</span>))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Python（或者絕大多數的程式語言）對於英文的大小寫是敏感的（case-sensitive），像是 True 會被識別為布林，但是 TRUE 或者 true 則會被視作物件名稱。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># recognized as bool</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">False</span>))</span><br><span class="line"><span class="comment"># recognized as object names</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(true))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(TRUE))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(false))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(FALSE))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>True 跟數值 1 相等； False 跟數值 0 相等。如果在數值運算中納入了布林不會產生任何問題。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="literal">True</span> == <span class="number">1</span>) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="literal">False</span> == <span class="number">0</span>) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="number">1</span> + <span class="literal">True</span>) <span class="comment"># output：2</span></span><br><span class="line"><span class="built_in">print</span>(<span class="number">1</span> + <span class="literal">False</span>) <span class="comment"># output：1</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="判斷條件簡介"><a href="#判斷條件簡介" class="headerlink" title="判斷條件簡介"></a>判斷條件簡介</h5><ul>
+<li><code>== 、 !=</code>：等於以及不等於</li>
+<li><code>&gt; 、 &gt;= 、 &lt; 、 &lt;=</code>：大於、大於等於、小於以及小於等於</li>
+<li><code>is 、 is not</code>：是否為相同的值與類型</li>
+<li><code>and 、 or</code>：交集與聯集</li>
+<li><code>not</code>：非</li>
+<li><code>in</code> ：是否存在於</li>
+</ul>
+<h4 id="None"><a href="#None" class="headerlink" title="None"></a>None</h4><ul>
+<li>None 是所謂的無值，或者可以用 NA 值（Not Available）或 NaN 值（Not a Number）去體會它</li>
+<li>None 是無回傳值函數中的預設輸出值、也是搜索特徵函數找不到情況下的預設輸出值</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 宣告了一個只有 pass 保留字內容的 hello_world() 函數，這就是一個所謂的無回傳值函數</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello_world</span>():</span></span><br><span class="line">  <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(hello_world()) <span class="comment"># output：None</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(hello_world())) <span class="comment"># output：&lt;class &#x27;NoneType&#x27;&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="判斷純量類型的函數"><a href="#判斷純量類型的函數" class="headerlink" title="判斷純量類型的函數"></a>判斷純量類型的函數</h4><ul>
+<li>使用 isinstance(x, classinfo) 函數判斷純量類型，其中 x 輸入物件名稱、 classinfo 輸入類型名稱。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># 判斷是否為整數</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="number">87</span>, <span class="built_in">int</span>)) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="string">&quot;87&quot;</span>, <span class="built_in">int</span>)) <span class="comment"># output：False</span></span><br><span class="line"><span class="comment"># 判斷是否為浮點數</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="number">87.0</span>, <span class="built_in">float</span>)) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="number">87</span>, <span class="built_in">float</span>)) <span class="comment"># output：False</span></span><br><span class="line"><span class="comment"># 判斷是否為文字</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="string">&quot;True&quot;</span>, <span class="built_in">str</span>)) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="literal">True</span>, <span class="built_in">str</span>)) <span class="comment"># output：False</span></span><br><span class="line"><span class="comment"># 判斷是否為布林</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="literal">False</span>, <span class="built_in">bool</span>)) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="string">&quot;False&quot;</span>, <span class="built_in">bool</span>)) <span class="comment"># output：False</span></span><br><span class="line"><span class="comment"># 判斷是否為 None</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="literal">None</span>, <span class="built_in">type</span>(<span class="literal">None</span>))) <span class="comment"># output：True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">isinstance</span>(<span class="string">&quot;None&quot;</span>, <span class="built_in">type</span>(<span class="literal">None</span>))) <span class="comment"># output：False</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="使用-type-函數回傳純量類型"><a href="#使用-type-函數回傳純量類型" class="headerlink" title="使用 type()函數回傳純量類型"></a>使用 type()函數回傳純量類型</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">my_int = <span class="number">87</span></span><br><span class="line">my_float = <span class="number">8.7</span></span><br><span class="line">my_str = <span class="string">&quot;Hello Python&quot;</span></span><br><span class="line">bool_true = <span class="literal">True</span></span><br><span class="line">bool_false = <span class="literal">False</span></span><br><span class="line">none_type = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(my_int))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(my_float))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(my_str))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(bool_true))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(bool_false))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(none_type))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="comment">## &lt;class &#x27;int&#x27;&gt;</span></span><br><span class="line"><span class="comment">## &lt;class &#x27;float&#x27;&gt;</span></span><br><span class="line"><span class="comment">## &lt;class &#x27;str&#x27;&gt;</span></span><br><span class="line"><span class="comment">## &lt;class &#x27;bool&#x27;&gt;</span></span><br><span class="line"><span class="comment">## &lt;class &#x27;bool&#x27;&gt;</span></span><br><span class="line"><span class="comment">## &lt;class &#x27;NoneType&#x27;&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="python-類型轉換"><a href="#python-類型轉換" class="headerlink" title="python 類型轉換"></a>python 類型轉換</h3><h4 id="純量轉換"><a href="#純量轉換" class="headerlink" title="純量轉換"></a>純量轉換</h4><p>使用與目標轉換類型同名的函數轉換純量類型。</p>
+<ul>
+<li><code>int()</code>：轉換純量為整數類型</li>
+<li><code>float()</code>：轉換純量為浮點數類型</li>
+<li><code>bool()</code>：轉換純量為布林類型，除了 0 以外的數字都是<code>True</code></li>
+<li><code>str()</code>：轉換純量為文字類型</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 轉換成整數</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(<span class="number">8.7</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(<span class="literal">False</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">int</span>(<span class="string">&quot;87&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="number">8</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="number">87</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 轉換成浮點數</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">float</span>(<span class="number">87</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">float</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">float</span>(<span class="literal">False</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">float</span>(<span class="string">&quot;87&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="number">87.0</span></span><br><span class="line"><span class="number">1.0</span></span><br><span class="line"><span class="number">0.0</span></span><br><span class="line"><span class="number">87.0</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 轉換成布林</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">0</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">0.0</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">1</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">1.0</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">8.7</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(-<span class="number">8.7</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="literal">False</span></span><br><span class="line"><span class="literal">False</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 轉換成字串</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>(<span class="number">87</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>(<span class="number">87.0</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>(<span class="literal">False</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="number">87</span></span><br><span class="line"><span class="number">87.0</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="python-運算符"><a href="#python-運算符" class="headerlink" title="python 運算符"></a>python 運算符</h3><ul>
+<li>算數運算符</li>
+</ul>
+<blockquote>
+<p>x=5, y=2</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>名稱</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>+</td>
+<td>加法</td>
+<td>x + y = 7</td>
+</tr>
+<tr>
+<td>-</td>
+<td>減法</td>
+<td>x - y = 3</td>
+</tr>
+<tr>
+<td>*</td>
+<td>乘法</td>
+<td>x * y = 10</td>
+</tr>
+<tr>
+<td>/</td>
+<td>除法</td>
+<td>x / y = 2.5</td>
+</tr>
+<tr>
+<td>%</td>
+<td>取餘數</td>
+<td>x % y = 1</td>
+</tr>
+<tr>
+<td>**</td>
+<td>指數</td>
+<td>x ** y = 25</td>
+</tr>
+<tr>
+<td>//</td>
+<td>取整除</td>
+<td>x // y = 2</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><code>+</code> 與 <code>*</code> 也可用於字串 (string) ， <code>+</code> 用於字串相接， <code>*</code> 用於複製字串</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">&quot;a&quot;</span></span><br><span class="line">b = a + <span class="string">&quot;b&quot;</span> <span class="comment"># 字串連接， b 會等於 &quot;ab&quot;</span></span><br><span class="line">c = a * <span class="number">3</span>   <span class="comment"># 字串重複三倍， c 會等於 &quot;aaa&quot;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>賦值運算符</li>
+</ul>
+<blockquote>
+<p>x = 5 = 0101 , 3 = 0011</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>名稱</th>
+<th>範例</th>
+<th>解答</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=</td>
+<td>賦值</td>
+<td>x = 5</td>
+<td>x = 5</td>
+</tr>
+<tr>
+<td>+=</td>
+<td>加法賦值</td>
+<td>x += 3 —&gt; x = x + 3</td>
+<td>x = 8</td>
+</tr>
+<tr>
+<td>-=</td>
+<td>減法賦值</td>
+<td>x -= 3 —&gt; x = x - 3</td>
+<td>x = 2</td>
+</tr>
+<tr>
+<td>*=</td>
+<td>乘法賦值</td>
+<td>x * = 3 —&gt; x = x * 3</td>
+<td>x = 15</td>
+</tr>
+<tr>
+<td>/=</td>
+<td>除法賦值</td>
+<td>x /= 3 —&gt; x = x / 3</td>
+<td>x = 1.666…</td>
+</tr>
+<tr>
+<td>%=</td>
+<td>取餘賦值</td>
+<td>x %= 3 —&gt; x = x % 3</td>
+<td>x = 2</td>
+</tr>
+<tr>
+<td>//=</td>
+<td>取整除賦值</td>
+<td>x //= 3 —&gt; x = x // 3</td>
+<td>x = 1</td>
+</tr>
+<tr>
+<td>**=</td>
+<td>指數賦值</td>
+<td>x **= 3 —&gt; x = x ** 3</td>
+<td>x = 125</td>
+</tr>
+<tr>
+<td>&amp;=</td>
+<td>AND 賦值</td>
+<td>x &amp;= 3 —&gt; x = x &amp; 3</td>
+<td>x = 1 = 0001</td>
+</tr>
+<tr>
+<td>|=</td>
+<td>OR 賦值</td>
+<td>x |= 3 —&gt; x = x | 3</td>
+<td>x = 7 = 0111</td>
+</tr>
+<tr>
+<td>^=</td>
+<td>XOR 賦值</td>
+<td>x ^= 3 —&gt; x = x ^ 3</td>
+<td>x = 6 = 0110</td>
+</tr>
+<tr>
+<td>&gt;&gt;=</td>
+<td>右移賦值</td>
+<td>x &gt;&gt;= 3 —&gt; x = x &gt;&gt; 3</td>
+<td>x = 0 = 0000 = 5 * 1/2**3 = 5/8</td>
+</tr>
+<tr>
+<td>&lt;&lt;=</td>
+<td>左移賦值</td>
+<td>x &lt;&lt;= 3 —&gt; x = x &lt;&lt; 3</td>
+<td>x = 40 = 0010 1000 = 5 * 2**3 = 5 * 8</td>
+</tr>
+</tbody></table>
+<ul>
+<li>比較運算符</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>名稱</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>==</td>
+<td>相等</td>
+<td>x == y</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>不相等</td>
+<td>x != y</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>大於</td>
+<td>x &gt; y</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小於</td>
+<td>x &lt; y</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>大於等於</td>
+<td>x &gt;= y</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>小於等於</td>
+<td>x &lt;= y</td>
+</tr>
+</tbody></table>
+<ul>
+<li>邏輯(布林)運算符</li>
+</ul>
+<blockquote>
+<p>x = 4</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>名稱</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>and</td>
+<td>與運算 - 兩者為 True，返回 True</td>
+<td>x &lt; 5 and x &lt; 10 —&gt; True</td>
+</tr>
+<tr>
+<td>or</td>
+<td>或運算 - 其中一者為 True，返回 True</td>
+<td>x &lt; 5 or x &lt; 4 —&gt; True</td>
+</tr>
+<tr>
+<td>not</td>
+<td>非運算 - 兩者為 Faluse，返回 True</td>
+<td>not(x &lt; 5 and x &lt; 10) —&gt; False</td>
+</tr>
+</tbody></table>
+<ul>
+<li>身分運算符</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>描述</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>is</td>
+<td>如果兩個變量是同一個對象(具有相同的記憶體位置)，則返回 True</td>
+<td>x is y</td>
+</tr>
+<tr>
+<td>is not</td>
+<td>如果兩個變量不是同一個對象(不是指向相同的記憶體位置)，則返回 True</td>
+<td>x is not y</td>
+</tr>
+</tbody></table>
+<ul>
+<li>成員運算符</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>描述</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>in</td>
+<td>當 in 前面的變數在後面的序列中時，結果為 True</td>
+<td>x in y</td>
+</tr>
+<tr>
+<td>not in</td>
+<td>當 in 前面的變數不在後面的序列中時，結果為 True</td>
+<td>x not in y</td>
+</tr>
+</tbody></table>
+<ul>
+<li>位元運算符</li>
+</ul>
+<blockquote>
+<p>a = 5</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>運算符</th>
+<th>名稱</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;</td>
+<td>AND(位與操作符) - 當兩側數字在該位上都是 1 的時候，結果該位也為 1，否則為 0</td>
+<td>a &amp; 2 = 0 = 0000</td>
+</tr>
+<tr>
+<td>|</td>
+<td>OR(位或操作符) - 當兩側數字在該位上只要有一個是 1 的時候，結果該位為 1，否則為 0</td>
+<td>a | 2 = 7 = 0111</td>
+</tr>
+<tr>
+<td>^</td>
+<td>XOR(位異或操作符) - 當兩側數字對應位二進位制相異時(其中一位為 1，另一位為 0)，結果為 1</td>
+<td>a ^ 2 = 7 =</td>
+</tr>
+<tr>
+<td>~</td>
+<td>NOT(位取反操作符) - 對運算元進行按位取反操作，1 變成 0，0 變成 1</td>
+<td>~a = -6 = -(0101 + 1) = -(0110)</td>
+</tr>
+<tr>
+<td>&lt;&lt;</td>
+<td>左移操作符 - 將 &lt;&lt; 左側的數字左移若干位，右側補 0，左側高位數捨棄</td>
+<td>a &lt;&lt; 2 = 20 = 0001 0100</td>
+</tr>
+<tr>
+<td>&gt;&gt;</td>
+<td>右移操作符 - 將 &gt;&gt; 左側的數字右移若干位，左側補齊 0</td>
+<td>a &gt;&gt; 2 = 1 = 0001</td>
+</tr>
+</tbody></table>
+<h3 id="python-條件語句與迴圈控制"><a href="#python-條件語句與迴圈控制" class="headerlink" title="python 條件語句與迴圈控制"></a>python 條件語句與迴圈控制</h3><ul>
+<li><p>條件語句：當程式流程在進行的過程，需要根據某個條件來決定是否執行接下來的動作時使用。</p>
+</li>
+<li><p>迴圈控制：處理資料時，若是想要重複執行某些相同的步驟時，就會使用到迴圈。</p>
+<h4 id="條件語句"><a href="#條件語句" class="headerlink" title="條件語句"></a>條件語句</h4></li>
+<li><p>if</p>
+<ul>
+<li>若判斷條件成立，則執行底下縮排的敘述內容；反之，則不動作。<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition:</span><br><span class="line">    statement</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>if-else</p>
+<ul>
+<li>若condition 為真 (True)，則執行 statement1；反之，則執行statement2。<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition:</span><br><span class="line">    statement1 <span class="keyword">for</span> <span class="literal">True</span> condition</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    statement2 <span class="keyword">for</span> <span class="literal">False</span> condition</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>if-elif-else<ul>
+<li>elif 的個數是沒有限制的，可以依照自己的需求而定。<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition1:</span><br><span class="line">    statement1 <span class="keyword">for</span> <span class="literal">True</span> Condition1</span><br><span class="line"><span class="keyword">elif</span> condition2 :</span><br><span class="line">    statement2 <span class="keyword">for</span> <span class="literal">True</span> Condition2</span><br><span class="line"><span class="keyword">elif</span> condition3 :</span><br><span class="line">    statement3 <span class="keyword">for</span> <span class="literal">True</span> Condition3</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    statements <span class="keyword">for</span> Each Condition <span class="literal">False</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>巢狀if</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">ID = <span class="built_in">input</span>()</span><br><span class="line">year = <span class="built_in">int</span>(ID[<span class="number">1</span>:<span class="number">3</span>])</span><br><span class="line"><span class="keyword">if</span> year &lt; <span class="number">4</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Graduated&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> year &lt;= <span class="number">7</span> <span class="keyword">and</span> year &gt;= <span class="number">4</span>:</span><br><span class="line">    <span class="keyword">if</span> year == <span class="number">7</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Freshman&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> year == <span class="number">6</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Sophomore&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> year == <span class="number">5</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Junior&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> year == <span class="number">4</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Senior&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Not Registered Yet&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="迴圈控制"><a href="#迴圈控制" class="headerlink" title="迴圈控制"></a>迴圈控制</h4><ul>
+<li>單層 for-loop<ul>
+<li>適用在「已知迴圈數」的問題</li>
+<li>for和in中間放自訂變數，in後面可接一個序列(ex. list)</li>
+<li>迴圈會依序從序列裡取得元素，將元素指派給前面的自訂變數，並執行迴圈裡的內容</li>
+<li>通常會跟range()做一個搭配使用</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>range(起始值，終止值，遞增(減)值)</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> sequence:</span><br><span class="line">    <span class="comment"># 放要執行的東西</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 迴圈搭配list依序印出內容</span></span><br><span class="line">sequences = [<span class="number">0</span>, <span class="number">1</span>,<span class="string">&#x27;jason&#x27;</span>,<span class="number">2.5</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> sequences:</span><br><span class="line">    <span class="built_in">print</span>(i)</span><br><span class="line"></span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line">jason</span><br><span class="line"><span class="number">2.5</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 迴圈搭配range()使用</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>() <span class="comment"># 換行</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>,<span class="number">2</span>,-<span class="number">2</span>):</span><br><span class="line">    <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"><span class="comment"># output</span></span><br><span class="line"><span class="number">0</span> <span class="number">1</span> <span class="number">2</span>    </span><br><span class="line"><span class="number">10</span> <span class="number">8</span> <span class="number">6</span> <span class="number">4</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>巢狀 for-loop<ul>
+<li>迴圈裡面又包覆著其他的迴圈。</li>
+<li>處理的問題具有重複執行某段敘述的特性，而且這些敘述受到兩個 (或兩個以上) 的變數來分別控制其變化</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 九九乘法表</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">10</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">10</span>):</span><br><span class="line">        <span class="keyword">if</span> j == <span class="number">9</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;\t&quot;</span>, i*j) <span class="comment"># j == 9時，換行</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;\t&quot;</span>, i*j, end = <span class="string">&#x27;&#x27;</span>) <span class="comment"># j &lt; 9時，不換行</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>while loops<ul>
+<li>適用在「無法預知迴圈數」的問題</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> test_expression:</span><br><span class="line">    Body of <span class="keyword">while</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 產生1到10的序列</span></span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> i &lt;= <span class="number">10</span>:</span><br><span class="line">    <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line">    i = i + <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>break 和 continue(迴圈不規則結束)<ul>
+<li>break：<strong>中斷迴圈</strong>的執行並跳脫迴圈結構，繼續執行迴圈外的敘述。</li>
+<li>continue：<strong>不中斷迴圈</strong>；只跳過迴圈內 continue 後面的剩餘敘述，接著繼續執行下一次的迴圈運作。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>規則的結束方式是當迴圈的判斷條件不再符合時，迴圈自然結束；而不規則的迴圈結束則是在迴圈自然結束前，我們已經得到想要的運算結果，利用強制中斷的方式來結束迴圈。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="string">&quot;Hey Alan&quot;</span>:</span><br><span class="line">    <span class="keyword">if</span> i == <span class="string">&quot;l&quot;</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="string">&quot;Hey Alan&quot;</span>:</span><br><span class="line">    <span class="keyword">if</span> i == <span class="string">&quot;l&quot;</span>:</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="built_in">print</span>(i, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># output </span></span><br><span class="line">H e y   A </span><br><span class="line">H e y   A a n </span><br></pre></td></tr></table></figure>
+
+<h3 id="python保留字"><a href="#python保留字" class="headerlink" title="python保留字"></a>python保留字</h3><ul>
+<li>定義：語言本身的編譯器中已經定義過的單詞，具有特定含義和用途，使用者不能再將這些單詞作為變數名或函數名、類名使用。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>保留字</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>and</td>
+<td>邏輯<code>與</code>操作，用於表示式運算</td>
+</tr>
+<tr>
+<td>as</td>
+<td>用於轉換資料型別</td>
+</tr>
+<tr>
+<td>assert</td>
+<td>用於判斷變數或條件表示式的結果</td>
+</tr>
+<tr>
+<td>async</td>
+<td>用於啟用非同步操作</td>
+</tr>
+<tr>
+<td>await</td>
+<td>用於非同步操作中等待協程返回</td>
+</tr>
+<tr>
+<td>break</td>
+<td>中斷迴圈語句的執行</td>
+</tr>
+<tr>
+<td>class</td>
+<td>定義類</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>繼續執行下一次迴圈</td>
+</tr>
+<tr>
+<td>def</td>
+<td>定義函數或方法</td>
+</tr>
+<tr>
+<td>del</td>
+<td>刪除變數或序列的值</td>
+</tr>
+<tr>
+<td>elif</td>
+<td>條件語句，與 if、else 結合使用</td>
+</tr>
+<tr>
+<td>else</td>
+<td>條件語句，與 if、else 結合使用；也可用於異常或迴圈語句</td>
+</tr>
+<tr>
+<td>except</td>
+<td>包含捕獲異常後的處理程式碼塊，與 try、finally 結合使用</td>
+</tr>
+<tr>
+<td>False</td>
+<td>含義為<code>假</code>的邏輯值</td>
+</tr>
+<tr>
+<td>finally</td>
+<td>包含捕獲異常後的始終要呼叫的程式碼塊，與 try、except 結合使用</td>
+</tr>
+<tr>
+<td>for</td>
+<td>迴圈語句</td>
+</tr>
+<tr>
+<td>from</td>
+<td>用於匯入模組，與 import 結合使用</td>
+</tr>
+<tr>
+<td>global</td>
+<td>用於在函數或其他區域性作用域中使用全域性變數</td>
+</tr>
+<tr>
+<td>if</td>
+<td>條件語句，與 elif、else 結合使用</td>
+</tr>
+<tr>
+<td>import</td>
+<td>匯入模組，與 from 結合使用</td>
+</tr>
+<tr>
+<td>in</td>
+<td>判斷變數是否在序列中</td>
+</tr>
+<tr>
+<td>is</td>
+<td>判斷變數是否為某個類的範例</td>
+</tr>
+<tr>
+<td>lambda</td>
+<td>定義匿名函數</td>
+</tr>
+<tr>
+<td>None</td>
+<td>表示一個空物件或是一個特殊的空值</td>
+</tr>
+<tr>
+<td>nonlocal</td>
+<td>用於在函數或其他作用域中使用外層（非全域性）變數</td>
+</tr>
+<tr>
+<td>not</td>
+<td>邏輯<code>非</code>操作，用於表示式運算</td>
+</tr>
+<tr>
+<td>or</td>
+<td>邏輯<code>或</code>操作，用於表示式運算</td>
+</tr>
+<tr>
+<td>pass</td>
+<td>空的類、方法或函數的預留位置</td>
+</tr>
+<tr>
+<td>raise</td>
+<td>用於丟擲異常</td>
+</tr>
+<tr>
+<td>return</td>
+<td>從函數返回計算結果</td>
+</tr>
+<tr>
+<td>True</td>
+<td>含義為<code>真</code>的邏輯值</td>
+</tr>
+<tr>
+<td>try</td>
+<td>測試執行可能出現異常的程式碼，與 except, finally 結合使用</td>
+</tr>
+<tr>
+<td>while</td>
+<td>迴圈語句</td>
+</tr>
+<tr>
+<td>with</td>
+<td>簡化 Python 的語句</td>
+</tr>
+<tr>
+<td>yield</td>
+<td>從函數依次返回值</td>
+</tr>
+</tbody></table>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/06/12/%E5%8D%87%E6%81%AF/" rel="prev" title="升息">
+      <i class="fa fa-chevron-left"></i> 升息
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#python-%E5%9F%BA%E7%A4%8E"><span class="nav-number">1.</span> <span class="nav-text">python 基礎</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Python-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95"><span class="nav-number">1.1.</span> <span class="nav-text">Python 基本語法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E5%9F%B7%E8%A1%8C%E6%96%B9%E5%BC%8F"><span class="nav-number">1.1.1.</span> <span class="nav-text">python 執行方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E6%A8%99%E7%A4%BA%E7%AC%A6"><span class="nav-number">1.1.2.</span> <span class="nav-text">python 標示符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%9B%E8%A1%8C%E7%B8%AE%E9%80%B2"><span class="nav-number">1.1.3.</span> <span class="nav-text">換行縮進</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E5%BC%95%E8%99%9F"><span class="nav-number">1.1.4.</span> <span class="nav-text">python 引號</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E6%B3%A8%E9%87%8B"><span class="nav-number">1.1.5.</span> <span class="nav-text">python 注釋</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-%E7%A9%BA%E8%A1%8C"><span class="nav-number">1.1.6.</span> <span class="nav-text">Python 空行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E5%80%8B%E8%AA%9E%E5%8F%A5%E7%B5%84%E6%88%90%E7%9A%84%E4%BB%A3%E7%A2%BC%E7%B5%84"><span class="nav-number">1.1.7.</span> <span class="nav-text">多個語句組成的代碼組</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python-%E8%AE%8A%E9%87%8F%E9%A1%9E%E5%9E%8B"><span class="nav-number">1.2.</span> <span class="nav-text">python 變量類型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E8%AE%8A%E9%87%8F%E8%B3%A6%E5%80%BC"><span class="nav-number">1.2.1.</span> <span class="nav-text">python 變量賦值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E8%B3%87%E6%96%99%E5%9E%8B%E6%85%8B"><span class="nav-number">1.2.2.</span> <span class="nav-text">python 資料型態</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%B4%94%E9%87%8F%E9%A1%9E%E5%9E%8B"><span class="nav-number">1.2.3.</span> <span class="nav-text">Python 基本的純量類型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B4%E6%95%B8%E5%92%8C%E6%B5%AE%E9%BB%9E%E6%95%B8"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">整數和浮點數</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E4%B8%B2"><span class="nav-number">1.2.3.2.</span> <span class="nav-text">字串</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#python-%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E4%B8%B2"><span class="nav-number">1.2.3.2.1.</span> <span class="nav-text">python 格式化字串</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B8%83%E6%9E%97"><span class="nav-number">1.2.3.3.</span> <span class="nav-text">布林</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%88%A4%E6%96%B7%E6%A2%9D%E4%BB%B6%E7%B0%A1%E4%BB%8B"><span class="nav-number">1.2.3.3.1.</span> <span class="nav-text">判斷條件簡介</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#None"><span class="nav-number">1.2.3.4.</span> <span class="nav-text">None</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%A4%E6%96%B7%E7%B4%94%E9%87%8F%E9%A1%9E%E5%9E%8B%E7%9A%84%E5%87%BD%E6%95%B8"><span class="nav-number">1.2.3.5.</span> <span class="nav-text">判斷純量類型的函數</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-type-%E5%87%BD%E6%95%B8%E5%9B%9E%E5%82%B3%E7%B4%94%E9%87%8F%E9%A1%9E%E5%9E%8B"><span class="nav-number">1.2.4.</span> <span class="nav-text">使用 type()函數回傳純量類型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E9%A1%9E%E5%9E%8B%E8%BD%89%E6%8F%9B"><span class="nav-number">1.2.5.</span> <span class="nav-text">python 類型轉換</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%B4%94%E9%87%8F%E8%BD%89%E6%8F%9B"><span class="nav-number">1.2.5.1.</span> <span class="nav-text">純量轉換</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E9%81%8B%E7%AE%97%E7%AC%A6"><span class="nav-number">1.2.6.</span> <span class="nav-text">python 運算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-%E6%A2%9D%E4%BB%B6%E8%AA%9E%E5%8F%A5%E8%88%87%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6"><span class="nav-number">1.2.7.</span> <span class="nav-text">python 條件語句與迴圈控制</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A2%9D%E4%BB%B6%E8%AA%9E%E5%8F%A5"><span class="nav-number">1.2.7.1.</span> <span class="nav-text">條件語句</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6"><span class="nav-number">1.2.7.2.</span> <span class="nav-text">迴圈控制</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python%E4%BF%9D%E7%95%99%E5%AD%97"><span class="nav-number">1.2.8.</span> <span class="nav-text">python保留字</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Alan"
+      src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655008790/mai1n_x82rsf.png">
+  <p class="site-author-name" itemprop="name">Alan</p>
+  <div class="site-description" itemprop="description">Know How, Know Why, Know What and When</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/sz9751210" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;sz9751210" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:alandev9751210@gmail.com" title="E-Mail → mailto:alandev9751210@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Alan</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script color='' opacity='' zIndex='' count='' src="/lib/canvas-nest/canvas-nest-nomobile.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>
