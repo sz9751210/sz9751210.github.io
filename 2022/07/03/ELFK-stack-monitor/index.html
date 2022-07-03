@@ -20,20 +20,33 @@
     var CONFIG = {"hostname":"sz9751210.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的">
+  <meta name="description" content="ELFK-stack-monitor簡介 ELFK-stack : alpine+filebeat(送資料) -&gt; logstash(filter) -&gt; elasticsearch(db) -&gt; kibana(ui) Monitor : elasticsearch_exporter,metricbeat(monitor) -&gt; prometheus(db) -&gt; g">
 <meta property="og:type" content="article">
-<meta property="og:title" content="心流：高手都在研究的最優體驗心理學">
-<meta property="og:url" content="http://sz9751210.github.io/2021/10/03/flow/index.html">
+<meta property="og:title" content="ELFK-stack-monitor">
+<meta property="og:url" content="http://sz9751210.github.io/2022/07/03/ELFK-stack-monitor/index.html">
 <meta property="og:site_name" content="艾倫的程式之旅">
-<meta property="og:description" content="讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的">
+<meta property="og:description" content="ELFK-stack-monitor簡介 ELFK-stack : alpine+filebeat(送資料) -&gt; logstash(filter) -&gt; elasticsearch(db) -&gt; kibana(ui) Monitor : elasticsearch_exporter,metricbeat(monitor) -&gt; prometheus(db) -&gt; g">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2021-10-03T04:46:00.000Z">
-<meta property="article:modified_time" content="2022-06-12T04:34:49.893Z">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/1_q9ck93.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/2_ue3k86.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/3_xcvznn.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/4_aardwa.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/5_an2ziy.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/6_yhhlse.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/7_hf12sn.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/8_oxpazs.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/9_ew4ygc.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/10_nnlowo.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/11_z0rj0u.png">
+<meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848593/ELFK-stack-monitor/12_olnbnr.png">
+<meta property="article:published_time" content="2022-07-03T11:41:10.000Z">
+<meta property="article:modified_time" content="2022-07-03T11:47:30.928Z">
 <meta property="article:author" content="Alan">
-<meta property="article:tag" content="books">
+<meta property="article:tag" content="devops,code,後端">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/1_q9ck93.png">
 
-<link rel="canonical" href="http://sz9751210.github.io/2021/10/03/flow/">
+<link rel="canonical" href="http://sz9751210.github.io/2022/07/03/ELFK-stack-monitor/">
 
 
 <script id="page-configurations">
@@ -46,7 +59,7 @@
   };
 </script>
 
-  <title>心流：高手都在研究的最優體驗心理學 | 艾倫的程式之旅</title>
+  <title>ELFK-stack-monitor | 艾倫的程式之旅</title>
   
 
 
@@ -168,7 +181,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://sz9751210.github.io/2021/10/03/flow/">
+    <link itemprop="mainEntityOfPage" href="http://sz9751210.github.io/2022/07/03/ELFK-stack-monitor/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1655008790/mai1n_x82rsf.png">
@@ -181,7 +194,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          心流：高手都在研究的最優體驗心理學
+          ELFK-stack-monitor
         </h1>
 
         <div class="post-meta">
@@ -190,24 +203,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
+              
 
-              <time title="創建時間：2021-10-03 12:46:00" itemprop="dateCreated datePublished" datetime="2021-10-03T12:46:00+08:00">2021-10-03</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2022-06-12 12:34:49" itemprop="dateModified" datetime="2022-06-12T12:34:49+08:00">2022-06-12</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/" itemprop="url" rel="index"><span itemprop="name">閱讀心得</span></a>
-                </span>
+              <time title="創建時間：2022-07-03 19:41:10 / 修改時間：19:47:30" itemprop="dateCreated datePublished" datetime="2022-07-03T19:41:10+08:00">2022-07-03</time>
             </span>
 
           
@@ -221,18 +219,38 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的副產物。所以本書就是在教如何找到自己的心流所在，讓我們能夠變得更快樂，更幸福。</p>
+        <h1 id="ELFK-stack-monitor"><a href="#ELFK-stack-monitor" class="headerlink" title="ELFK-stack-monitor"></a>ELFK-stack-monitor</h1><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><ul>
+<li>ELFK-stack : alpine+filebeat(送資料) -&gt; logstash(filter) -&gt; elasticsearch(db) -&gt; kibana(ui)</li>
+<li>Monitor : elasticsearch_exporter,metricbeat(monitor) -&gt; prometheus(db) -&gt; grafana(ui)</li>
+</ul>
 <span id="more"></span>
 
-<p>心流的三個特徵，第一：全神貫注的忘我境界，拿我剛剛想程式碼的例子，從一開始的設計邏輯到實踐，整個過程我是全神貫注的狀態，第二：重建自我內在的秩序，我必須給自己信心，相信自己能夠實現出我所想的方法，第三：目標與即時的回饋，我透過一小段一小段慢慢實踐我所想的方法，並能夠立即知道結果，只要達成這三個，就有機會體驗心流，知道如何控制內在體驗的人們將有能力決定自己的人生品質。當我們進入心流體驗的時間越多，就越能提升自己本身的幸福感、加深對目標的堅持、擁有更積極的心態，讓我們面對未來種種挑戰也不會輕易受到外在的控制。自行作主的信念能使一個人能全心投入目標，行動完全受內在控制</p>
-<p>最後我整理了進入心流的五個步驟</p>
-<ol>
-<li> 設定明確並且具有挑戰性的目標</li>
-<li>具備一定程度的技能</li>
-<li>拆解成階段性任務</li>
-<li>屏除外界干擾專心投入</li>
-<li>忘卻自我樂在當下</li>
+<h2 id="環境建置"><a href="#環境建置" class="headerlink" title="環境建置"></a>環境建置</h2><ol>
+<li>使用docker-compose啟動服務<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+<li>進到<code>localhost:5601</code>按照以下圖示設定index pattern<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/1_q9ck93.png"></li>
 </ol>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/2_ue3k86.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/3_xcvznn.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/4_aardwa.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/5_an2ziy.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848591/ELFK-stack-monitor/6_yhhlse.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/7_hf12sn.png"></p>
+<ol start="3">
+<li>可進到<code>localhost:3000</code>查看grafana dashboard，帳密都為admin<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/8_oxpazs.png"></li>
+</ol>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/9_ew4ygc.png"></p>
+<p><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/10_nnlowo.png"></p>
+<ul>
+<li><p>container-dashboard<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848592/ELFK-stack-monitor/11_z0rj0u.png"></p>
+</li>
+<li><p>elasticsearch-dashboard<br><img src="https://res.cloudinary.com/djjm5zjdm/image/upload/v1656848593/ELFK-stack-monitor/12_olnbnr.png"></p>
+</li>
+</ul>
+<h2 id="預計添加功能"><a href="#預計添加功能" class="headerlink" title="預計添加功能"></a>預計添加功能</h2><ul>
+<li><input disabled="" type="checkbox"> 新增log filter</li>
+<li><input disabled="" type="checkbox"> 添加ssl</li>
+<li><input disabled="" type="checkbox"> cluster架構的elastic</li>
+</ul>
 
     </div>
 
@@ -241,9 +259,6 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/books/" rel="tag"># books</a>
-          </div>
 
         
 
@@ -251,13 +266,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/10/03/leetcode-27/" rel="prev" title="LeetCode 27. Remove Element">
-      <i class="fa fa-chevron-left"></i> LeetCode 27. Remove Element
+    <a href="/2022/06/12/TICK-Stack-tutorial/" rel="prev" title="TICK_Stack-tutorial">
+      <i class="fa fa-chevron-left"></i> TICK_Stack-tutorial
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/06/05/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/" rel="next" title="刻意練習：原創者全面解析, 比天賦更關鍵的學習法">
-      刻意練習：原創者全面解析, 比天賦更關鍵的學習法 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -316,6 +328,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ELFK-stack-monitor"><span class="nav-number">1.</span> <span class="nav-text">ELFK-stack-monitor</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B0%A1%E4%BB%8B"><span class="nav-number">1.1.</span> <span class="nav-text">簡介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">環境建置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A0%90%E8%A8%88%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD"><span class="nav-number">1.3.</span> <span class="nav-text">預計添加功能</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
