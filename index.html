@@ -256,10 +256,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2022-07-03 19:41:10 / 修改時間：19:50:40" itemprop="dateCreated datePublished" datetime="2022-07-03T19:41:10+08:00">2022-07-03</time>
+              <time title="創建時間：2022-07-03 19:41:10" itemprop="dateCreated datePublished" datetime="2022-07-03T19:41:10+08:00">2022-07-03</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2022-07-06 18:28:28" itemprop="dateModified" datetime="2022-07-06T18:28:28+08:00">2022-07-06</time>
+              </span>
 
           
 
@@ -272,10 +278,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="ELFK-stack-monitor"><a href="#ELFK-stack-monitor" class="headerlink" title="ELFK-stack-monitor"></a>ELFK-stack-monitor</h1><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><ul>
-<li>ELFK-stack : alpine+filebeat(送資料) -&gt; logstash(filter) -&gt; elasticsearch(db) -&gt; kibana(ui)</li>
-<li>Monitor : elasticsearch_exporter,metricbeat(monitor) -&gt; prometheus(db) -&gt; grafana(ui)</li>
-</ul>
+          <h1 id="ELFK-stack-monitor"><a href="#ELFK-stack-monitor" class="headerlink" title="ELFK-stack-monitor"></a>ELFK-stack-monitor</h1><h2 id="👨‍💻簡介"><a href="#👨‍💻簡介" class="headerlink" title="👨‍💻簡介"></a>👨‍💻簡介</h2><ul>
+<li><p>🔰ELFK-stack：因最近在研究elk-stack，藉此紀錄一下使用docker-compose建立起elk-stack的架構，主要先從alpine產生假資料並存到filebeat讀取的資料夾，接著filebeat將資料送往logstash，在實務上，會在logstash做filter的功能(未來會新增)，接著送到elasticsearch存起來，並透過kibana的ui下去做搜尋所需的log資料。</p>
+</li>
+<li><p>🔰Monitor：使用cadvisor監控所有容器以及elasticsearch_exporter監控elasticsearch的狀態，並把資料送到prometheus儲存起來，最後透過grafana的ui呈現。</p>
+<h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3></li>
+<li><p>⚙️ELFK-stack : alpine+filebeat(送資料) -&gt; logstash(filter) -&gt; elasticsearch(db) -&gt; kibana(ui)</p>
+</li>
+<li><p>⚙️Monitor : cadvisor,elasticsearch_exporter(monitor) -&gt; prometheus(db) -&gt; grafana(ui)</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2022/07/03/ELFK-stack-monitor/#more" rel="contents">
