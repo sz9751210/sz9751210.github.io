@@ -190,7 +190,7 @@
               <span class="post-meta-item-text">發表於</span>
               
 
-              <time title="創建時間：2022-07-10 15:45:00 / 修改時間：18:06:18" itemprop="dateCreated datePublished" datetime="2022-07-10T15:45:00+08:00">2022-07-10</time>
+              <time title="創建時間：2022-07-10 15:45:00 / 修改時間：18:11:08" itemprop="dateCreated datePublished" datetime="2022-07-10T15:45:00+08:00">2022-07-10</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -213,10 +213,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Portainer基本介紹"><a href="#Portainer基本介紹" class="headerlink" title="Portainer基本介紹"></a>Portainer基本介紹</h1><h2 id="setup"><a href="#setup" class="headerlink" title="setup"></a>setup</h2><h3 id="透過docker-compose-yml建立portainer"><a href="#透過docker-compose-yml建立portainer" class="headerlink" title="透過docker-compose.yml建立portainer"></a>透過docker-compose.yml建立portainer</h3><ol>
-<li>建立docker-compose.yml</li>
-</ol>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># docker-compose.yml</span></span><br><span class="line"><span class="attr">version:</span> <span class="string">&quot;3&quot;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">portainer:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">portainer/portainer-ce</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/var/run/docker.sock:/var/run/docker.sock</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">portainer_data:/data</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">9000</span><span class="string">:9000</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">portainer</span></span><br><span class="line"><span class="attr">volumes:</span></span><br><span class="line">  <span class="attr">portainer_data:</span> &#123;&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+          <h1 id="Portainer基本介紹"><a href="#Portainer基本介紹" class="headerlink" title="Portainer基本介紹"></a>Portainer基本介紹</h1><h2 id="👨‍💻簡介"><a href="#👨‍💻簡介" class="headerlink" title="👨‍💻簡介"></a>👨‍💻簡介</h2><ul>
+<li>portainer主要讓我們能有個UI介面管理我們的docker，對於初學docker指令不太熟的使用者能快速進入docker的世界，並且可從docker hub一鍵拉取image進行快速部署，設定network、volume等，都可藉由portainer完成。</li>
+</ul>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2022/07/10/Portainer%EF%BC%9A%E4%B8%80%E6%AC%BE%E5%9C%96%E5%BD%A2%E5%8C%96%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/#more" rel="contents">

@@ -20,12 +20,12 @@
     var CONFIG = {"hostname":"sz9751210.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Portainer基本介紹setup透過docker-compose.yml建立portainer 建立docker-compose.yml  1234567891011121314# docker-compose.ymlversion: &quot;3&quot;services:  portainer:    image: portainer&#x2F;portainer-ce    volumes:">
+  <meta name="description" content="Portainer基本介紹👨‍💻簡介 portainer主要讓我們能有個UI介面管理我們的docker，對於初學docker指令不太熟的使用者能快速進入docker的世界，並且可從docker hub一鍵拉取image進行快速部署，設定network、volume等，都可藉由portainer完成。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Portainer：一款圖形化容器管理工具">
 <meta property="og:url" content="http://sz9751210.github.io/2022/07/10/Portainer%EF%BC%9A%E4%B8%80%E6%AC%BE%E5%9C%96%E5%BD%A2%E5%8C%96%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/index.html">
 <meta property="og:site_name" content="艾倫的程式之旅">
-<meta property="og:description" content="Portainer基本介紹setup透過docker-compose.yml建立portainer 建立docker-compose.yml  1234567891011121314# docker-compose.ymlversion: &quot;3&quot;services:  portainer:    image: portainer&#x2F;portainer-ce    volumes:">
+<meta property="og:description" content="Portainer基本介紹👨‍💻簡介 portainer主要讓我們能有個UI介面管理我們的docker，對於初學docker指令不太熟的使用者能快速進入docker的世界，並且可從docker hub一鍵拉取image進行快速部署，設定network、volume等，都可藉由portainer完成。">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1657447289/portainer/1_jqpc7a.png">
 <meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1657447290/portainer/2_kre4dh.png">
@@ -53,7 +53,7 @@
 <meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1657447294/portainer/24_n6l1eb.png">
 <meta property="og:image" content="https://res.cloudinary.com/djjm5zjdm/image/upload/v1657447294/portainer/25_mw3ocj.png">
 <meta property="article:published_time" content="2022-07-10T07:45:00.000Z">
-<meta property="article:modified_time" content="2022-07-10T10:06:18.229Z">
+<meta property="article:modified_time" content="2022-07-10T10:11:08.999Z">
 <meta property="article:author" content="Alan">
 <meta property="article:tag" content="devops">
 <meta property="article:tag" content="container">
@@ -219,7 +219,7 @@
               <span class="post-meta-item-text">發表於</span>
               
 
-              <time title="創建時間：2022-07-10 15:45:00 / 修改時間：18:06:18" itemprop="dateCreated datePublished" datetime="2022-07-10T15:45:00+08:00">2022-07-10</time>
+              <time title="創建時間：2022-07-10 15:45:00 / 修改時間：18:11:08" itemprop="dateCreated datePublished" datetime="2022-07-10T15:45:00+08:00">2022-07-10</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -242,12 +242,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="Portainer基本介紹"><a href="#Portainer基本介紹" class="headerlink" title="Portainer基本介紹"></a>Portainer基本介紹</h1><h2 id="setup"><a href="#setup" class="headerlink" title="setup"></a>setup</h2><h3 id="透過docker-compose-yml建立portainer"><a href="#透過docker-compose-yml建立portainer" class="headerlink" title="透過docker-compose.yml建立portainer"></a>透過docker-compose.yml建立portainer</h3><ol>
+        <h1 id="Portainer基本介紹"><a href="#Portainer基本介紹" class="headerlink" title="Portainer基本介紹"></a>Portainer基本介紹</h1><h2 id="👨‍💻簡介"><a href="#👨‍💻簡介" class="headerlink" title="👨‍💻簡介"></a>👨‍💻簡介</h2><ul>
+<li>portainer主要讓我們能有個UI介面管理我們的docker，對於初學docker指令不太熟的使用者能快速進入docker的世界，並且可從docker hub一鍵拉取image進行快速部署，設定network、volume等，都可藉由portainer完成。</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="setup"><a href="#setup" class="headerlink" title="setup"></a>setup</h2><h3 id="透過docker-compose-yml建立portainer"><a href="#透過docker-compose-yml建立portainer" class="headerlink" title="透過docker-compose.yml建立portainer"></a>透過docker-compose.yml建立portainer</h3><ol>
 <li>建立docker-compose.yml</li>
 </ol>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># docker-compose.yml</span></span><br><span class="line"><span class="attr">version:</span> <span class="string">&quot;3&quot;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">portainer:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">portainer/portainer-ce</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/var/run/docker.sock:/var/run/docker.sock</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">portainer_data:/data</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">9000</span><span class="string">:9000</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">portainer</span></span><br><span class="line"><span class="attr">volumes:</span></span><br><span class="line">  <span class="attr">portainer_data:</span> &#123;&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
 
 <ol start="2">
 <li><p>執行<code>docker-compose up -d</code></p>
@@ -398,7 +401,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Portainer%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.</span> <span class="nav-text">Portainer基本介紹</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#setup"><span class="nav-number">1.1.</span> <span class="nav-text">setup</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%8F%E9%81%8Edocker-compose-yml%E5%BB%BA%E7%AB%8Bportainer"><span class="nav-number">1.1.1.</span> <span class="nav-text">透過docker-compose.yml建立portainer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E7%A4%8E%E4%BB%8B%E7%B4%B9-%E6%9C%AC%E5%9C%B0%E7%92%B0%E5%A2%83"><span class="nav-number">1.1.2.</span> <span class="nav-text">基礎介紹(本地環境)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Dashboard"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">1. Dashboard</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Stacks"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">2. Stacks</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-Containers"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">3. Containers</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-Images"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">4. Images</span></a></li></ol></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Portainer%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.</span> <span class="nav-text">Portainer基本介紹</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%E7%B0%A1%E4%BB%8B"><span class="nav-number">1.1.</span> <span class="nav-text">👨‍💻簡介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#setup"><span class="nav-number">1.2.</span> <span class="nav-text">setup</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%8F%E9%81%8Edocker-compose-yml%E5%BB%BA%E7%AB%8Bportainer"><span class="nav-number">1.2.1.</span> <span class="nav-text">透過docker-compose.yml建立portainer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E7%A4%8E%E4%BB%8B%E7%B4%B9-%E6%9C%AC%E5%9C%B0%E7%92%B0%E5%A2%83"><span class="nav-number">1.2.2.</span> <span class="nav-text">基礎介紹(本地環境)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Dashboard"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">1. Dashboard</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Stacks"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">2. Stacks</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-Containers"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">3. Containers</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-Images"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">4. Images</span></a></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
