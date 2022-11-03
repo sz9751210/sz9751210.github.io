@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/python/</link>
+    <description>Recent content in python on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Nov 2022 17:09:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python-installation</title>
+      <link>https://sz9751210.github.io/posts/python-installation/</link>
+      <pubDate>Wed, 02 Nov 2022 17:09:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/python-installation/</guid>
+      <description>python-installation</description>
+    </item>
+    
+    <item>
+      <title>python 基礎</title>
+      <link>https://sz9751210.github.io/posts/python-%E5%9F%BA%E7%A4%8E/</link>
+      <pubDate>Sun, 12 Jun 2022 17:45:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/python-%E5%9F%BA%E7%A4%8E/</guid>
+      <description>&lt;h2 id=&#34;python-基本語法&#34;&gt;Python 基本語法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;python 語法的後綴名是以.py 結尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;python-執行方式&#34;&gt;python 執行方式&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用交互介面執行&lt;/li&gt;
+&lt;li&gt;使用 python test.py 命令執行&lt;/li&gt;
+&lt;li&gt;使用./test.py 執行&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

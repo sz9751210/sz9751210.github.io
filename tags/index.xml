@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/</link>
+    <description>Recent content in Tags on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Nov 2022 17:09:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://sz9751210.github.io/tags/python/</link>
+      <pubDate>Wed, 02 Nov 2022 17:09:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://sz9751210.github.io/tags/linux/</link>
+      <pubDate>Tue, 01 Nov 2022 10:22:12 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://sz9751210.github.io/tags/git/</link>
+      <pubDate>Mon, 31 Oct 2022 16:10:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://sz9751210.github.io/tags/blog/</link>
+      <pubDate>Sun, 30 Oct 2022 19:09:17 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://sz9751210.github.io/tags/hugo/</link>
+      <pubDate>Sun, 30 Oct 2022 19:09:17 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://sz9751210.github.io/tags/devops/</link>
+      <pubDate>Mon, 17 Oct 2022 16:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://sz9751210.github.io/tags/windows/</link>
+      <pubDate>Mon, 17 Oct 2022 14:50:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://sz9751210.github.io/tags/k8s/</link>
+      <pubDate>Mon, 17 Oct 2022 10:41:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elk</title>
+      <link>https://sz9751210.github.io/tags/elk/</link>
+      <pubDate>Mon, 17 Oct 2022 10:20:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/elk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://sz9751210.github.io/tags/books/</link>
+      <pubDate>Mon, 17 Oct 2022 10:00:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ansible</title>
+      <link>https://sz9751210.github.io/tags/ansible/</link>
+      <pubDate>Mon, 17 Oct 2022 09:57:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://sz9751210.github.io/tags/docker/</link>
+      <pubDate>Sun, 10 Jul 2022 15:45:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jenkins</title>
+      <link>https://sz9751210.github.io/tags/jenkins/</link>
+      <pubDate>Sun, 12 Jun 2022 06:50:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode</title>
+      <link>https://sz9751210.github.io/tags/leetcode/</link>
+      <pubDate>Sun, 05 Jun 2022 18:17:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

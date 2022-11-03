@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/linux/</link>
+    <description>Recent content in linux on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Nov 2022 10:22:12 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 複製檔案[cp]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E8%A4%87%E8%A3%BD%E6%AA%94%E6%A1%88-cp/</link>
+      <pubDate>Tue, 01 Nov 2022 10:22:12 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E8%A4%87%E8%A3%BD%E6%AA%94%E6%A1%88-cp/</guid>
+      <description>cp(copy) 用途：複製檔案和目錄 語法 cp [OPTIONS] SOURCE DEST 參數 參數 說明 -a, &amp;ndash;archive 效果同-dpR，保留連結、文件屬性，並複製目錄下的所有內容，通常在複製目錄時使用 &amp;ndash;attributes-only 只複製文件的屬性，內容不複製 &amp;ndash;backup[=CONTROL] 備份每個現有的目標文件 -b 不接受參數版的&amp;ndash;backup &amp;ndash;copy-contents 遞歸模式下複製特殊文件的內容 -d 複製時保留軟連結 -f, &amp;ndash;force 強制覆蓋已經存在的目標文件，不會跳出提示 -i, &amp;ndash;interactive 與-f選項相反，在覆蓋目標文件之前給出提示，要求用戶確認是否覆蓋，回答 y 時目標文件將被覆蓋。 -H 跟隨源文件命令行中顯式給出的符號鏈接 -l, &amp;ndash;link 使用硬鏈接取代複製 -L, &amp;ndash;dereference 總是跟隨源文件中的符號鏈接 -n, &amp;ndash;no-clobber 不要覆寫已有的文件（覆蓋先前給出的 -i 選項） -P, &amp;ndash;no-dereference 永遠不要跟隨源文件中的符號鏈接 -p 不接受參數版的&amp;ndash;preserve &amp;ndash;preserve[=ATTR_LIST] 除複製文件的內容外，還把修改時間和訪問權限也複製到新文件中。保留指定的屬性（默認：模式、從屬關係、時間戳），如果可能的話還有額外屬性：上下文、鏈接（links）、xattr、all &amp;ndash;no-preserve=ATTR_LIST 不要保留指定的屬性 &amp;ndash;parents 在目標目錄下使用完整的源文件名 -R, -r, &amp;ndash;recursive 遞歸複製目錄 &amp;ndash;reflink[=WHEN] 控制克隆/寫入時複製（CoW）副本。詳情見下文 &amp;ndash;remove-destination 打開目的 &amp;ndash;sparse=WHEN 控制稀疏文件的創建。詳情見下文 &amp;ndash;strip-trailing-slashes 移除每個源文件參數後的任何末尾斜槓 -s, &amp;ndash;symbolic-link 建立軟連結而不是複制 -S, &amp;ndash;suffix=後置字串 覆蓋原本的備份後綴 -t, &amp;ndash;target-directory=目錄 將所有源文件參數給出的內容複製到目標目錄中 -T, &amp;ndash;no-target-directory 將目標文件當作普通文件對待（而不是目錄） -u, &amp;ndash;update 僅在源文件比目標文件新，或者目標文件不存在的情況下複製 -v, &amp;ndash;verbose 顯示覆蓋訊息 -x, &amp;ndash;one-file-system 停留在當前文件系統中 -Z 將目標文件的 SELinux 安全上下文設置為默認類型 &amp;ndash;context[=CTX] 類似-Z，或者如果給定了上下文（CTX）那麼將SELinux或者SMACK 安全上下文設置爲給定值 默認情況下，程序會使用一種粗糙的啓發式算法探測源文件是否是稀疏的，若判定爲稀疏，則目標文件也會以稀疏形式創建。這個行爲可以通過</description>
+    </item>
+    
+    <item>
+      <title>linux 修改權限[chmod]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E6%AC%8A%E9%99%90-chmod/</link>
+      <pubDate>Sun, 30 Oct 2022 21:45:01 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E6%AC%8A%E9%99%90-chmod/</guid>
+      <description>chmod(change mode) 用途：控制用戶對文件的權限，linux 的文件權限分為三種身分，owner/group/others，而權限也分為三種，read/write/execute，權重如下表格 權限 權重 r 4 w 2 x 1 語法 chmod [OPTIONS] [mode] [檔案或目錄] 參數 參數 說明 -c, &amp;ndash;changes 效果類似&amp;quot;-v&amp;quot;參數，但僅回報更改的部分。 -f, &amp;ndash;silent, &amp;ndash;quiet 不顯示錯誤資訊。 -v, &amp;ndash;verbose 顯示指令執行過程。 &amp;ndash;no-preserve-root 取消對 root 文件系統的保護 &amp;ndash;preserve-root 保留對 root 文件系統的保護 &amp;ndash;reference=RFILE 把指定文件或目錄的權限全部設成和參考文件或目錄的權限相同。 -R, &amp;ndash;recursive 遞迴處理，將指定目錄下的所有檔及子目錄一併處理。 符號模式 who(用戶類型) 說明 u(user) 所有者 g(group) 所屬組 o(others) 其他用戶 a(all) 所有用戶，等於ugo operator 說明 + 新增權限 - 移除權限 = 設定權限 模式 說明 r 可讀權限 w 可寫權限 x 可執行權限 絕對模式 參數 權限 rwx 7 讀+寫+執行 rwx 6 讀+寫 rw- 5 讀+執行 r-x 4 只讀 r&amp;ndash; 3 寫+執行 -wx 2 只寫 -w- 1 只執行 &amp;ndash;x 0 無 &amp;mdash; 基本操作 將檔案變成user可執行 假設原本檔案權限為-rw-rw-r--</description>
+    </item>
+    
+    <item>
+      <title>linux 修改群組[chgrp]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%BE%A4%E7%B5%84-chgrp/</link>
+      <pubDate>Thu, 27 Oct 2022 20:36:51 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%BE%A4%E7%B5%84-chgrp/</guid>
+      <description>&lt;h1 id=&#34;chgrp&#34;&gt;chgrp&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：用於改變文件或目錄的所屬群組&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux 分頁查看檔案[less]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E5%88%86%E9%A0%81%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-less/</link>
+      <pubDate>Wed, 26 Oct 2022 19:08:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E5%88%86%E9%A0%81%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-less/</guid>
+      <description>&lt;h1 id=&#34;less&#34;&gt;less&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：對文件或其它輸出進行分頁顯示的工具，可查看壓縮檔&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux 查看結尾文字[tail]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E7%B5%90%E5%B0%BE%E6%96%87%E5%AD%97-tail/</link>
+      <pubDate>Tue, 25 Oct 2022 16:04:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E7%B5%90%E5%B0%BE%E6%96%87%E5%AD%97-tail/</guid>
+      <description>&lt;h1 id=&#34;tail&#34;&gt;tail&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：印出結尾，與 head 相法的功用&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux 查看開頭文字[head]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E9%96%8B%E9%A0%AD%E6%96%87%E5%AD%97-head/</link>
+      <pubDate>Mon, 24 Oct 2022 16:47:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E9%96%8B%E9%A0%AD%E6%96%87%E5%AD%97-head/</guid>
+      <description>&lt;h1 id=&#34;head&#34;&gt;head&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：用來顯示開頭的文字區塊，看該檔案頭部 (預設為 10 行)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux 查看檔案[cat]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-cat/</link>
+      <pubDate>Wed, 19 Oct 2022 10:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-cat/</guid>
+      <description>&lt;h1 id=&#34;cat&#34;&gt;cat&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：查看文件，把檔案串連接後傳到基本輸出&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux 修改目錄權限[chown]</title>
+      <link>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%9B%AE%E9%8C%84%E6%AC%8A%E9%99%90-chown/</link>
+      <pubDate>Tue, 18 Oct 2022 15:37:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%9B%AE%E9%8C%84%E6%AC%8A%E9%99%90-chown/</guid>
+      <description>&lt;h1 id=&#34;chown&#34;&gt;chown&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：變更文件或目錄的權限&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>系統異常指標除錯</title>
+      <link>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</link>
+      <pubDate>Mon, 17 Oct 2022 16:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</guid>
+      <description>&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
+&lt;p&gt;幫自己紀錄一下如何處理linux機器的指標&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

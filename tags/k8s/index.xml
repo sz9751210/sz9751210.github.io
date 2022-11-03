@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>k8s on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/k8s/</link>
+    <description>Recent content in k8s on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 17 Oct 2022 10:41:00 +0000</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K8S-monitor</title>
+      <link>https://sz9751210.github.io/posts/k8s-monitor/</link>
+      <pubDate>Mon, 17 Oct 2022 10:41:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-monitor/</guid>
+      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
+&lt;p&gt;之前都介紹docker監控container，這次來點不一樣的，直接裝在k8s裡面去監控pod的一些指標。&lt;/p&gt;
+&lt;p&gt;基本的指標像是cpu, mem, pod數量, node數量等等，都能透過kube-state-metrics完成，而如果想要監控一些流量的指標，像是tcp連線數，tw數等，則是需要另外在服務的pod裡另外寫node-exporter的container，組成side-car的形式，讓exporter將指標送往prometheus。&lt;/p&gt;
+&lt;p&gt;在撰寫的過程，遇到比較大的難題是prometheus的config檔撰寫，一開始打算使用docker-compose的方式起monitor服務，然後去call k8s cluster取得相關指標，但常常call不到服務，可能是因為minikube的關係，在本地也跑docker，最後改成直接安裝在k8s裡面，另外建立一個namespace放監控相關的服務，有機會在測試kind以及k3s。&lt;/p&gt;
+&lt;p&gt;demo用的deploy使用skaffold這本地開發k8s的神器，搭配kustomize可讓我依據所需測試的環境下去做自動佈署，有機會再另外介紹這工具。&lt;/p&gt;
+&lt;p&gt;之後預計會再新增prometheus adapter，讓我的prometheus metrics可以成為我hpa的擴縮判斷，因為基本的hpa指標只有cpu以及mem，如果可以依照網路流量變大，幫我擴展pod，當流量變小時幫我縮pod，讓我能自定義指標，相信使用k8s的效益會更大。&lt;/p&gt;
+&lt;p&gt;🔗詳細專案位置 &amp;ndash;&amp;gt; &lt;a href=&#34;https://github.com/sz9751210/k8s-monitor&#34;&gt;https://github.com/sz9751210/k8s-monitor&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
