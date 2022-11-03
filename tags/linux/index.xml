@@ -21,73 +21,73 @@
     
     <item>
       <title>Linux 複製檔案[cp]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E8%A4%87%E8%A3%BD%E6%AA%94%E6%A1%88-cp/</link>
+      <link>https://sz9751210.github.io/posts/linux-cp/</link>
       <pubDate>Tue, 01 Nov 2022 10:22:12 +0800</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E8%A4%87%E8%A3%BD%E6%AA%94%E6%A1%88-cp/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-cp/</guid>
       <description>linux-cp</description>
     </item>
     
     <item>
       <title>Linux 修改權限[chmod]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E6%AC%8A%E9%99%90-chmod/</link>
+      <link>https://sz9751210.github.io/posts/linux-chmod/</link>
       <pubDate>Sun, 30 Oct 2022 21:45:01 +0800</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E6%AC%8A%E9%99%90-chmod/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-chmod/</guid>
       <description>linux-chmod</description>
     </item>
     
     <item>
       <title>Linux 修改群組[chgrp]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%BE%A4%E7%B5%84-chgrp/</link>
+      <link>https://sz9751210.github.io/posts/linux-chgrp/</link>
       <pubDate>Thu, 27 Oct 2022 20:36:51 +0800</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%BE%A4%E7%B5%84-chgrp/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-chgrp/</guid>
       <description>linux-chgrp</description>
     </item>
     
     <item>
       <title>Linux 分頁查看檔案[less]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E5%88%86%E9%A0%81%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-less/</link>
+      <link>https://sz9751210.github.io/posts/linux-less/</link>
       <pubDate>Wed, 26 Oct 2022 19:08:00 +0000</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E5%88%86%E9%A0%81%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-less/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-less/</guid>
       <description>linux-less</description>
     </item>
     
     <item>
       <title>Linux 查看結尾文字[tail]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E7%B5%90%E5%B0%BE%E6%96%87%E5%AD%97-tail/</link>
+      <link>https://sz9751210.github.io/posts/linux-tail/</link>
       <pubDate>Tue, 25 Oct 2022 16:04:00 +0000</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E7%B5%90%E5%B0%BE%E6%96%87%E5%AD%97-tail/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-tail/</guid>
       <description>linux-tail</description>
     </item>
     
     <item>
       <title>Linux 查看開頭文字[head]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E9%96%8B%E9%A0%AD%E6%96%87%E5%AD%97-head/</link>
+      <link>https://sz9751210.github.io/posts/linux-head/</link>
       <pubDate>Mon, 24 Oct 2022 16:47:00 +0000</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E9%96%8B%E9%A0%AD%E6%96%87%E5%AD%97-head/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-head/</guid>
       <description>linux-head</description>
     </item>
     
     <item>
       <title>Linux 查看檔案[cat]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-cat/</link>
+      <link>https://sz9751210.github.io/posts/linux-cat/</link>
       <pubDate>Wed, 19 Oct 2022 10:25:00 +0000</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E6%9F%A5%E7%9C%8B%E6%AA%94%E6%A1%88-cat/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-cat/</guid>
       <description>linux-cat</description>
     </item>
     
     <item>
       <title>Linux 修改目錄權限[chown]</title>
-      <link>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%9B%AE%E9%8C%84%E6%AC%8A%E9%99%90-chown/</link>
+      <link>https://sz9751210.github.io/posts/linux-chown/</link>
       <pubDate>Tue, 18 Oct 2022 15:37:00 +0000</pubDate>
       
-      <guid>https://sz9751210.github.io/posts/linux-%E4%BF%AE%E6%94%B9%E7%9B%AE%E9%8C%84%E6%AC%8A%E9%99%90-chown/</guid>
+      <guid>https://sz9751210.github.io/posts/linux-chown/</guid>
       <description>linux-chown</description>
     </item>
     
