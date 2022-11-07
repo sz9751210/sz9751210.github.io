@@ -41,8 +41,7 @@
       <pubDate>Mon, 17 Oct 2022 10:20:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/%E5%96%AC%E5%8F%94%E5%B8%B6%E4%BD%A0%E4%B8%8A%E6%89%8Belastic-stackelasticsearch%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90%E8%88%87%E6%9C%80%E4%BD%B3%E5%8C%96%E6%8A%80%E5%B7%A7/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
 &lt;p&gt;當初在研究Elastic Stack，ILM這部份還不熟時，剛好搜尋到喬叔的鐵人賽文章，閱讀時彷彿挖到了寶，對於Index的管理講解得非常透徹，從Index如何被建立，使用Template以及Alias，再到導入ILM以及搭配Rollover以及Shrink等方式達到索引、搜尋、儲存等最佳化，一步一步穩定順利的完成，真的很感動。&lt;/p&gt;
 &lt;p&gt;之前使用Elastic Stack並沒有使用到ILM的配置，所以單個Index可能會超過官方建議的大小，並且使用的是以一天為單位，但實務上並非每個服務都是固定的大小，因此導入ILM對於整體的效能會有更好的幫助，並且使用三溫暖架構，讓最新的log都放在效能較好的機器上，較舊的log則隨著自定義的時間轉移到效能較差的機器上，讓搜尋能有更好的體驗。&lt;/p&gt;</description>
     </item>
@@ -104,8 +103,7 @@
       <pubDate>Sun, 03 Jul 2022 19:41:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/elfk-stack-monitor/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
 &lt;p&gt;因最近在研究elk-stack，藉此紀錄一下使用docker-compose建立起elk-stack的架構，在建立的過程中，比較多遇到的是記憶體使用率的配置不足，導致容器無法成功啟動，或是config檔權限的問題，因此在filebeat的部分會直接把config檔放進去並改成root權限。&lt;/p&gt;
 &lt;p&gt;之後希望能再增加logstash的pipeline功能，在實務上可多個服務做篩選，以及elasticsearch的資料安全性配置SSL和叢集架構，並導入ILM做log的空間管理。&lt;/p&gt;
 &lt;p&gt;監控的部分則是拿之前做的小專案直接套用並呈現，所以整體流程大致上差不多，多了個elasticsearch_exporter，可查看更多elasticsearch的整體狀況，例如index、shard的數量，資料大小，寫入速率等等。&lt;/p&gt;

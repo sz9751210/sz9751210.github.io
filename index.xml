@@ -228,8 +228,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Mon, 17 Oct 2022 10:20:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/%E5%96%AC%E5%8F%94%E5%B8%B6%E4%BD%A0%E4%B8%8A%E6%89%8Belastic-stackelasticsearch%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90%E8%88%87%E6%9C%80%E4%BD%B3%E5%8C%96%E6%8A%80%E5%B7%A7/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
 &lt;p&gt;當初在研究Elastic Stack，ILM這部份還不熟時，剛好搜尋到喬叔的鐵人賽文章，閱讀時彷彿挖到了寶，對於Index的管理講解得非常透徹，從Index如何被建立，使用Template以及Alias，再到導入ILM以及搭配Rollover以及Shrink等方式達到索引、搜尋、儲存等最佳化，一步一步穩定順利的完成，真的很感動。&lt;/p&gt;
 &lt;p&gt;之前使用Elastic Stack並沒有使用到ILM的配置，所以單個Index可能會超過官方建議的大小，並且使用的是以一天為單位，但實務上並非每個服務都是固定的大小，因此導入ILM對於整體的效能會有更好的幫助，並且使用三溫暖架構，讓最新的log都放在效能較好的機器上，較舊的log則隨著自定義的時間轉移到效能較差的機器上，讓搜尋能有更好的體驗。&lt;/p&gt;</description>
     </item>
@@ -240,9 +239,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Mon, 17 Oct 2022 10:00:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/soft-skills-%E8%BB%9F%E5%AF%A6%E5%8A%9B%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8A/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容1&lt;/p&gt;
@@ -298,8 +295,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Sun, 09 Oct 2022 12:16:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/%E5%8D%A1%E7%89%87%E7%9B%92%E7%AD%86%E8%A8%98%E6%9C%80%E9%AB%98%E6%95%88%E6%80%9D%E8%80%83%E7%AD%86%E8%A8%98%E8%A1%93%E5%BE%B7%E5%9C%8B%E6%95%99%E6%8E%88%E8%B6%85%E5%BC%B7%E7%A7%98%E6%8A%80%E4%BF%83%E9%80%B2%E5%AF%AB%E4%BD%9C%E5%AD%B8%E7%BF%92%E8%88%87%E6%80%9D%E8%80%83%E4%BD%BF%E4%BD%A0%E6%B4%9E%E8%A6%8B%E6%BA%90%E6%BA%90%E4%B8%8D%E6%96%B7%E6%88%90%E7%82%BA%E5%B0%88%E5%AE%B6/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
@@ -364,8 +360,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Sun, 03 Jul 2022 19:41:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/elfk-stack-monitor/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
 &lt;p&gt;因最近在研究elk-stack，藉此紀錄一下使用docker-compose建立起elk-stack的架構，在建立的過程中，比較多遇到的是記憶體使用率的配置不足，導致容器無法成功啟動，或是config檔權限的問題，因此在filebeat的部分會直接把config檔放進去並改成root權限。&lt;/p&gt;
 &lt;p&gt;之後希望能再增加logstash的pipeline功能，在實務上可多個服務做篩選，以及elasticsearch的資料安全性配置SSL和叢集架構，並導入ILM做log的空間管理。&lt;/p&gt;
 &lt;p&gt;監控的部分則是拿之前做的小專案直接套用並呈現，所以整體流程大致上差不多，多了個elasticsearch_exporter，可查看更多elasticsearch的整體狀況，例如index、shard的數量，資料大小，寫入速率等等。&lt;/p&gt;
@@ -397,16 +392,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Sun, 12 Jun 2022 17:45:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/python-%E5%9F%BA%E7%A4%8E/</guid>
-      <description>&lt;h2 id=&#34;python-基本語法&#34;&gt;Python 基本語法&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;python 語法的後綴名是以.py 結尾&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;python-執行方式&#34;&gt;python 執行方式&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;使用交互介面執行&lt;/li&gt;
-&lt;li&gt;使用 python test.py 命令執行&lt;/li&gt;
-&lt;li&gt;使用./test.py 執行&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>python-basic</description>
     </item>
     
     <item>
@@ -426,8 +412,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Fri, 10 Jun 2022 21:49:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/%E6%AF%94%E7%89%B9%E5%B9%A3%E6%8A%95%E8%B3%87%E9%87%91%E5%BE%8B%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E5%AF%A6%E6%88%B0%E6%95%99%E5%AD%B8%E8%88%87%E9%80%B2%E9%9A%8E%E7%8D%B2%E5%88%A9%E6%B3%95/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
@@ -484,8 +469,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Sun, 05 Jun 2022 12:56:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
@@ -531,9 +515,7 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       <pubDate>Sun, 03 Oct 2021 12:46:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/flow/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;a href=&#34;../TICK-Stack-tutorial.md&#34;&gt;a link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
 &lt;p&gt;讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的副產物。所以本書就是在教如何找到自己的心流所在，讓我們能夠變得更快樂，更幸福。&lt;/p&gt;</description>
     </item>
     
