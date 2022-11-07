@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Nov 2022 17:32:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 16:52:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 查找文件[find]</title>
+      <link>https://sz9751210.github.io/posts/linux-find/</link>
+      <pubDate>Mon, 07 Nov 2022 16:52:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-find/</guid>
+      <description>linux-find</description>
+    </item>
+    
     <item>
       <title>linux-logrotate</title>
       <link>https://sz9751210.github.io/posts/linux-logrotate/</link>
@@ -214,10 +223,11 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
       
       <guid>https://sz9751210.github.io/posts/soft-skills-%E8%BB%9F%E5%AF%A6%E5%8A%9B%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8A/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
+&lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容1&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;像管理公司一樣管理自己，像享受遊戲一樣享受生活&lt;/li&gt;
 &lt;li&gt;硬實力決定起點，軟實力決定能走多快多遠&lt;/li&gt;
