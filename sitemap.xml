@@ -3,26 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sz9751210.github.io/tags/linux/</loc>
-    <lastmod>2022-11-10T12:16:19+08:00</lastmod>
+    <lastmod>2022-11-10T17:16:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/posts/linux-sed/</loc>
-    <lastmod>2022-11-10T12:16:19+08:00</lastmod>
+    <loc>https://sz9751210.github.io/posts/linux-timedatectl/</loc>
+    <lastmod>2022-11-10T17:16:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2022-11-10T12:16:19+08:00</lastmod>
+    <lastmod>2022-11-10T17:16:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2022-11-10T12:16:19+08:00</lastmod>
+    <lastmod>2022-11-10T17:16:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2022-11-10T17:16:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/linux-sed/</loc>
     <lastmod>2022-11-10T12:16:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -113,7 +118,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/quote/</loc>
-    <lastmod>2022-11-03T10:31:54+08:00</lastmod>
+    <lastmod>2022-11-10T17:16:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

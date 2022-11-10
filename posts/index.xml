@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Nov 2022 17:01:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 17:14:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 修改時間[timedatectl]</title>
+      <link>https://sz9751210.github.io/posts/linux-timedatectl/</link>
+      <pubDate>Thu, 10 Nov 2022 17:14:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-timedatectl/</guid>
+      <description>linux-timedatectl</description>
+    </item>
+    
     <item>
       <title>Linux 修改字串[sed]</title>
       <link>https://sz9751210.github.io/posts/linux-sed/</link>
