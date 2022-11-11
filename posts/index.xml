@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Nov 2022 17:14:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 15:05:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k8s-reloader</title>
+      <link>https://sz9751210.github.io/posts/k8s-reloader/</link>
+      <pubDate>Fri, 11 Nov 2022 15:05:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-reloader/</guid>
+      <description>k8s-reloader</description>
+    </item>
+    
     <item>
       <title>Linux 修改時間[timedatectl]</title>
       <link>https://sz9751210.github.io/posts/linux-timedatectl/</link>

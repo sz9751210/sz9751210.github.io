@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Oct 2022 16:25:00 +0000</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 15:05:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k8s-reloader</title>
+      <link>https://sz9751210.github.io/posts/k8s-reloader/</link>
+      <pubDate>Fri, 11 Nov 2022 15:05:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-reloader/</guid>
+      <description>k8s-reloader</description>
+    </item>
+    
     <item>
       <title>系統異常指標除錯</title>
       <link>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</link>
