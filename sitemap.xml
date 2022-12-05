@@ -2,28 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sz9751210.github.io/tags/linux/</loc>
-    <lastmod>2022-12-02T14:57:42+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/posts/linux-id/</loc>
-    <lastmod>2022-12-02T14:57:42+08:00</lastmod>
+    <loc>https://sz9751210.github.io/posts/linux-last/</loc>
+    <lastmod>2022-12-05T16:53:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2022-12-02T14:57:42+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2022-12-02T14:57:42+08:00</lastmod>
+    <lastmod>2022-12-05T16:53:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/</loc>
-    <lastmod>2022-12-02T14:57:42+08:00</lastmod>
+    <lastmod>2022-12-05T16:53:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/linux/</loc>
+    <lastmod>2022-12-05T16:53:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/linux-id/</loc>
+    <lastmod>2022-12-05T16:53:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/</loc>
+    <lastmod>2022-12-05T16:53:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
