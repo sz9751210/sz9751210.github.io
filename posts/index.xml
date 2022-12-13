@@ -151,9 +151,7 @@
       <pubDate>Mon, 31 Oct 2022 16:10:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/posts/gitignore%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</guid>
-      <description>因為git忽略的原則為之前沒有被追蹤的檔案，因此可能開發到一半才會需要新增gitignore來進行忽略，但是失效
-解決的辦法為刪掉本地快取(改變成未被追蹤的狀態)，接著在新增要忽略的檔案到gitignore裡
-git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </description>
+      <description>gitignore失效的解決辦法</description>
     </item>
     
     <item>
