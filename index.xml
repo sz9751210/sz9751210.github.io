@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Dec 2022 16:51:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 15:26:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 27. Remove Element</title>
+      <link>https://sz9751210.github.io/posts/leetcode-27/</link>
+      <pubDate>Tue, 13 Dec 2022 15:26:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-27/</guid>
+      <description>LeetCode 27. Remove Element</description>
+    </item>
+    
     <item>
       <title>Linux 列出登入資訊[last]</title>
       <link>https://sz9751210.github.io/posts/linux-last/</link>
@@ -567,17 +576,6 @@ git rm -r --cached . git add . git commit -m &amp;#34;init gitignore&amp;#34; </
 &lt;li&gt;當你不再相信自己能達成目標時千萬別放棄，先和自己約定好，等到重回先前水準或突破高原期後再說，到時大概就會繼續下去了。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>LeetCode 27. Remove Element</title>
-      <link>https://sz9751210.github.io/posts/leetcode-27/</link>
-      <pubDate>Sun, 03 Oct 2021 12:46:00 +0000</pubDate>
-      
-      <guid>https://sz9751210.github.io/posts/leetcode-27/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;題目描述：給一個列表以及一個要移除的數，返回移除後的列表長度&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
