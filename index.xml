@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Dec 2022 15:26:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2022 17:02:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcode 01. two sum</title>
+      <link>https://sz9751210.github.io/posts/leetcode-01/</link>
+      <pubDate>Wed, 14 Dec 2022 17:02:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-01/</guid>
+      <description>leetcode 01. two sum</description>
+    </item>
+    
     <item>
       <title>LeetCode 27. Remove Element</title>
       <link>https://sz9751210.github.io/posts/leetcode-27/</link>
@@ -528,17 +537,6 @@
       <guid>https://sz9751210.github.io/posts/leetcode-13/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;題目描述：給一個字串，依照題目給的表格，計算出字串對應的值並做加總&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>LeetCode 01. Two Sum</title>
-      <link>https://sz9751210.github.io/posts/leetcode-01/</link>
-      <pubDate>Sun, 05 Jun 2022 17:40:00 +0000</pubDate>
-      
-      <guid>https://sz9751210.github.io/posts/leetcode-01/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;題目描述：給一個列表以及一個列表裡兩數相加起來的數，返回此兩數的列表位置&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
