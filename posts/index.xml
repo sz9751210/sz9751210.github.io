@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Jan 2023 14:55:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 19:52:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>terraform-ansible</title>
+      <link>https://sz9751210.github.io/posts/terraform-ansible/</link>
+      <pubDate>Mon, 23 Jan 2023 19:52:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/terraform-ansible/</guid>
+      <description>terraform-ansible</description>
+    </item>
+    
     <item>
       <title>Centos 7 安裝gitlab</title>
       <link>https://sz9751210.github.io/posts/centos7%E5%AE%89%E8%A3%9Dgitlab/</link>
