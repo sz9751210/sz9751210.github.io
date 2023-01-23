@@ -337,13 +337,7 @@
       <pubDate>Mon, 17 Oct 2022 10:41:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/k8s-monitor/</guid>
-      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
-&lt;p&gt;之前都介紹docker監控container，這次來點不一樣的，直接裝在k8s裡面去監控pod的一些指標。&lt;/p&gt;
-&lt;p&gt;基本的指標像是cpu, mem, pod數量, node數量等等，都能透過kube-state-metrics完成，而如果想要監控一些流量的指標，像是tcp連線數，tw數等，則是需要另外在服務的pod裡另外寫node-exporter的container，組成side-car的形式，讓exporter將指標送往prometheus。&lt;/p&gt;
-&lt;p&gt;在撰寫的過程，遇到比較大的難題是prometheus的config檔撰寫，一開始打算使用docker-compose的方式起monitor服務，然後去call k8s cluster取得相關指標，但常常call不到服務，可能是因為minikube的關係，在本地也跑docker，最後改成直接安裝在k8s裡面，另外建立一個namespace放監控相關的服務，有機會在測試kind以及k3s。&lt;/p&gt;
-&lt;p&gt;demo用的deploy使用skaffold這本地開發k8s的神器，搭配kustomize可讓我依據所需測試的環境下去做自動佈署，有機會再另外介紹這工具。&lt;/p&gt;
-&lt;p&gt;之後預計會再新增prometheus adapter，讓我的prometheus metrics可以成為我hpa的擴縮判斷，因為基本的hpa指標只有cpu以及mem，如果可以依照網路流量變大，幫我擴展pod，當流量變小時幫我縮pod，讓我能自定義指標，相信使用k8s的效益會更大。&lt;/p&gt;
-&lt;p&gt;🔗詳細專案位置 &amp;ndash;&amp;gt; &lt;a href=&#34;https://github.com/sz9751210/k8s-monitor&#34;&gt;https://github.com/sz9751210/k8s-monitor&lt;/a&gt;&lt;/p&gt;</description>
+      <description>K8S-monitor</description>
     </item>
     
     <item>
@@ -398,19 +392,7 @@
       <pubDate>Mon, 17 Oct 2022 09:57:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/ansible-elk/</guid>
-      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
-&lt;p&gt;上次使用docker建立起ELK-stack，最近剛好在研究ansible，所以也寫了一下使用playbook的方式建立起ELK-stack。&lt;/p&gt;
-&lt;p&gt;撰寫的過程中，先從官方文件查看安裝流程，接著再去找ansible相對應的module，在目錄結構的劃分也學習到了不少，從一開始只有一個main.yml慢慢獨立出來有一個根目錄的yml再去include task，並學會如何使用template以及vars。&lt;/p&gt;
-&lt;p&gt;在撰寫template時，使用到了jinja2語法，直接可以套用vars，讓我的template複製進去就都載入好我要的參數，並且可以依照我的inventory動態設定我的參數，真的有夠強大。&lt;/p&gt;
-&lt;p&gt;最後要感謝凍仁大的ansible教程，許多學習資訊都是從凍仁大的ansible git book學到的，會把網址放在下面，有興趣的可以去參考一下，寫得很簡潔明瞭，讓新手也能很快上手，尤其是使用docker-compose就能練習ansible的部份，使用jupyter notebook下去跑ansible module有夠方便。&lt;/p&gt;
-&lt;p&gt;🔗凍仁大ansible指南 &amp;ndash;&amp;gt; &lt;a href=&#34;https://chusiang.gitbooks.io/automate-with-ansible/content/&#34;&gt;現代 IT 人一定要知道的 Ansible 自動化組態技巧&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🔗Ansible-ELK repo &amp;ndash;&amp;gt; &lt;a href=&#34;https://github.com/sz9751210/ansible-elk&#34;&gt;Ansible-ELK&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
-&lt;p&gt;在gcp環境下使用ansible playbook 建立elk stack&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;elasticsearch：主要會先需要先跑init master，接著再去跑seed host去加入master組成cluster架構，邏輯上還有可修改的地方，目前先以兩份yaml分開跑下去做建立，在跑完init master後會先建立iim以及index template&lt;/li&gt;
-&lt;li&gt;logstash：直接將pipeline等設定都複製進去&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>ANSIBLE-ELK</description>
     </item>
     
     <item>
@@ -484,20 +466,7 @@
       <pubDate>Sun, 03 Jul 2022 19:41:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/elfk-stack-monitor/</guid>
-      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
-&lt;p&gt;因最近在研究elk-stack，藉此紀錄一下使用docker-compose建立起elk-stack的架構，在建立的過程中，比較多遇到的是記憶體使用率的配置不足，導致容器無法成功啟動，或是config檔權限的問題，因此在filebeat的部分會直接把config檔放進去並改成root權限。&lt;/p&gt;
-&lt;p&gt;之後希望能再增加logstash的pipeline功能，在實務上可多個服務做篩選，以及elasticsearch的資料安全性配置SSL和叢集架構，並導入ILM做log的空間管理。&lt;/p&gt;
-&lt;p&gt;監控的部分則是拿之前做的小專案直接套用並呈現，所以整體流程大致上差不多，多了個elasticsearch_exporter，可查看更多elasticsearch的整體狀況，例如index、shard的數量，資料大小，寫入速率等等。&lt;/p&gt;
-&lt;p&gt;🔗詳細專案位置 &amp;ndash;&amp;gt; &lt;a href=&#34;https://github.com/sz9751210/ELFK-stack-monitor&#34;&gt;ELFK-stack-monitor&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;🔰ELFK-stack：使用docker-compose建立起elk-stack的架構，主要先從alpine產生假資料並存到filebeat讀取的資料夾，接著filebeat將資料送往logstash，在實務上，會在logstash做filter的功能(未來會新增)，接著送到elasticsearch存起來，並透過kibana的ui下去做搜尋所需的log資料。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🔰Monitor：使用cadvisor監控所有容器以及elasticsearch_exporter監控elasticsearch的狀態，並把資料送到prometheus儲存起來，最後透過grafana的ui呈現。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>ELFK-stack-monitor</description>
     </item>
     
     <item>

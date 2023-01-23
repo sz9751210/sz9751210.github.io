@@ -13,17 +13,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2023-01-23T19:38:03+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2023-01-23T19:38:03+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/</loc>
-    <lastmod>2023-01-23T19:38:03+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -78,12 +78,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/devops/</loc>
-    <lastmod>2023-01-23T19:38:03+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/k8s/</loc>
-    <lastmod>2022-11-11T15:37:33+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -243,12 +243,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/k8s-monitor/</loc>
-    <lastmod>2022-11-03T10:31:54+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/monitor/</loc>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/elk/</loc>
-    <lastmod>2022-11-07T17:26:31+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -268,12 +273,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/ansible/</loc>
-    <lastmod>2022-11-07T17:26:31+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/ansible-elk/</loc>
-    <lastmod>2022-11-07T17:26:31+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -298,17 +303,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/elfk-stack-monitor/</loc>
-    <lastmod>2022-11-07T17:26:31+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/tick/</loc>
-    <lastmod>2023-01-23T19:38:03+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/tick-stack-tutorial/</loc>
-    <lastmod>2023-01-23T19:38:03+08:00</lastmod>
+    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

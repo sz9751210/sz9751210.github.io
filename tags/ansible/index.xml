@@ -16,19 +16,7 @@
       <pubDate>Mon, 17 Oct 2022 09:57:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/ansible-elk/</guid>
-      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
-&lt;p&gt;上次使用docker建立起ELK-stack，最近剛好在研究ansible，所以也寫了一下使用playbook的方式建立起ELK-stack。&lt;/p&gt;
-&lt;p&gt;撰寫的過程中，先從官方文件查看安裝流程，接著再去找ansible相對應的module，在目錄結構的劃分也學習到了不少，從一開始只有一個main.yml慢慢獨立出來有一個根目錄的yml再去include task，並學會如何使用template以及vars。&lt;/p&gt;
-&lt;p&gt;在撰寫template時，使用到了jinja2語法，直接可以套用vars，讓我的template複製進去就都載入好我要的參數，並且可以依照我的inventory動態設定我的參數，真的有夠強大。&lt;/p&gt;
-&lt;p&gt;最後要感謝凍仁大的ansible教程，許多學習資訊都是從凍仁大的ansible git book學到的，會把網址放在下面，有興趣的可以去參考一下，寫得很簡潔明瞭，讓新手也能很快上手，尤其是使用docker-compose就能練習ansible的部份，使用jupyter notebook下去跑ansible module有夠方便。&lt;/p&gt;
-&lt;p&gt;🔗凍仁大ansible指南 &amp;ndash;&amp;gt; &lt;a href=&#34;https://chusiang.gitbooks.io/automate-with-ansible/content/&#34;&gt;現代 IT 人一定要知道的 Ansible 自動化組態技巧&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🔗Ansible-ELK repo &amp;ndash;&amp;gt; &lt;a href=&#34;https://github.com/sz9751210/ansible-elk&#34;&gt;Ansible-ELK&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
-&lt;p&gt;在gcp環境下使用ansible playbook 建立elk stack&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;elasticsearch：主要會先需要先跑init master，接著再去跑seed host去加入master組成cluster架構，邏輯上還有可修改的地方，目前先以兩份yaml分開跑下去做建立，在跑完init master後會先建立iim以及index template&lt;/li&gt;
-&lt;li&gt;logstash：直接將pipeline等設定都複製進去&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>ANSIBLE-ELK</description>
     </item>
     
   </channel>
