@@ -9,7 +9,25 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 Feb 2023 10:49:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 11:40:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crontab</title>
+      <link>https://sz9751210.github.io/tags/crontab/</link>
+      <pubDate>Thu, 09 Feb 2023 11:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/crontab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://sz9751210.github.io/tags/linux/</link>
+      <pubDate>Thu, 09 Feb 2023 11:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>gcp</title>
       <link>https://sz9751210.github.io/tags/gcp/</link>
@@ -61,15 +79,6 @@
       <pubDate>Sat, 17 Dec 2022 19:25:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://sz9751210.github.io/tags/linux/</link>
-      <pubDate>Fri, 02 Dec 2022 14:56:00 +0800</pubDate>
-      
-      <guid>https://sz9751210.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

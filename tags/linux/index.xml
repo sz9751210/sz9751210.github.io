@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 02 Dec 2022 14:56:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 11:40:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 定時任務[crontab]</title>
+      <link>https://sz9751210.github.io/posts/linux-crontab/</link>
+      <pubDate>Thu, 09 Feb 2023 11:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-crontab/</guid>
+      <description>linux-crontab</description>
+    </item>
+    
     <item>
       <title>Linux 顯示用戶資訊[id]</title>
       <link>https://sz9751210.github.io/posts/linux-id/</link>
