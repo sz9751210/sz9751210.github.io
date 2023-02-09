@@ -244,7 +244,7 @@
       <pubDate>Sat, 29 Oct 2022 17:28:33 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/quote/</guid>
-      <description> Know How, Know Why, Know What and When 把時間花在哪裡，成就就在哪裡 time is your most valuable resource, speed is your best friend </description>
+      <description> Know How, Know Why, Know What and When 把時間花在哪裡，成就就在哪裡 time is your most valuable resource, speed is your best friend 用實作來學習，永遠是初學的王道!以實戰來練習，永遠是進階的捷徑! Practice makes perfect. All experience comes from mistakes. Don&amp;rsquo;t be one of the leeches. </description>
     </item>
     
     <item>
@@ -596,6 +596,15 @@ class Solution: def romanToInt(self, s: str) -&amp;gt; int: numeral_map = {&amp;
       <guid>https://sz9751210.github.io/posts/flow/</guid>
       <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
 &lt;p&gt;讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的副產物。所以本書就是在教如何找到自己的心流所在，讓我們能夠變得更快樂，更幸福。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sz9751210.github.io/posts/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/docker/</guid>
+      <description></description>
     </item>
     
     
