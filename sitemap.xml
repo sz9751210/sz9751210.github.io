@@ -2,27 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sz9751210.github.io/tags/devops/</loc>
+    <lastmod>2023-02-14T14:32:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/docker/</loc>
+    <lastmod>2023-02-14T14:32:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/</loc>
+    <lastmod>2023-02-14T14:32:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/</loc>
+    <lastmod>2023-02-14T14:32:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2023-02-14T14:32:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/15-best-practices-when-working-with-docker/</loc>
+    <lastmod>2023-02-14T14:32:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://sz9751210.github.io/tags/linux/</loc>
     <lastmod>2023-02-09T11:57:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/linux-crontab/</loc>
-    <lastmod>2023-02-09T11:57:41+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2023-02-09T11:57:41+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2023-02-09T11:57:41+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/</loc>
     <lastmod>2023-02-09T11:57:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -109,11 +124,6 @@
   </url><url>
     <loc>https://sz9751210.github.io/posts/linux-passwd/</loc>
     <lastmod>2022-12-05T16:56:32+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/devops/</loc>
-    <lastmod>2023-01-23T19:48:30+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -314,11 +324,6 @@
   </url><url>
     <loc>https://sz9751210.github.io/posts/%E5%8D%A1%E7%89%87%E7%9B%92%E7%AD%86%E8%A8%98%E6%9C%80%E9%AB%98%E6%95%88%E6%80%9D%E8%80%83%E7%AD%86%E8%A8%98%E8%A1%93%E5%BE%B7%E5%9C%8B%E6%95%99%E6%8E%88%E8%B6%85%E5%BC%B7%E7%A7%98%E6%8A%80%E4%BF%83%E9%80%B2%E5%AF%AB%E4%BD%9C%E5%AD%B8%E7%BF%92%E8%88%87%E6%80%9D%E8%80%83%E4%BD%BF%E4%BD%A0%E6%B4%9E%E8%A6%8B%E6%BA%90%E6%BA%90%E4%B8%8D%E6%96%B7%E6%88%90%E7%82%BA%E5%B0%88%E5%AE%B6/</loc>
     <lastmod>2022-10-09T12:16:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/docker/</loc>
-    <lastmod>2022-11-03T10:31:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

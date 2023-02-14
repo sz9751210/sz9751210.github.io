@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Jul 2022 15:45:00 +0000</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2023 13:56:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>閱讀筆記：15 Best Practices when working with Docker</title>
+      <link>https://sz9751210.github.io/posts/15-best-practices-when-working-with-docker/</link>
+      <pubDate>Tue, 14 Feb 2023 13:56:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/15-best-practices-when-working-with-docker/</guid>
+      <description>15 Best Practices when working with Docker</description>
+    </item>
+    
     <item>
       <title>Portainer：一款圖形化容器管理工具</title>
       <link>https://sz9751210.github.io/posts/portainer-intro/</link>
