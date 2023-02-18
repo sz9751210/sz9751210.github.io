@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>jenkins on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/jenkins/</link>
+    <description>Recent content in jenkins on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Jun 2022 06:50:00 +0000</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jenkins 安裝教學(CentOS)</title>
+      <link>https://sz9751210.github.io/posts/jenkins-installation-centos/</link>
+      <pubDate>Sun, 12 Jun 2022 06:50:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/jenkins-installation-centos/</guid>
+      <description>&lt;h1 id=&#34;centos-7-安裝及設定jenkins&#34;&gt;CentOS 7 安裝及設定Jenkins&lt;/h1&gt;
+&lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
+&lt;p&gt;開源且免費的CI工具，由Java編寫的，提供了持續構建以及部署的功能，是一個自動化的server&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

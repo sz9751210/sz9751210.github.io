@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/linux/</link>
+    <description>Recent content in linux on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 09 Feb 2023 11:40:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 定時任務[crontab]</title>
+      <link>https://sz9751210.github.io/posts/linux-crontab/</link>
+      <pubDate>Thu, 09 Feb 2023 11:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-crontab/</guid>
+      <description>linux-crontab</description>
+    </item>
+    
+    <item>
+      <title>Linux 顯示用戶資訊[id]</title>
+      <link>https://sz9751210.github.io/posts/linux-id/</link>
+      <pubDate>Fri, 02 Dec 2022 14:56:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-id/</guid>
+      <description>linux-id</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改密碼[passwd]</title>
+      <link>https://sz9751210.github.io/posts/linux-passwd/</link>
+      <pubDate>Tue, 15 Nov 2022 15:29:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-passwd/</guid>
+      <description>linux-passwd</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改時間[timedatectl]</title>
+      <link>https://sz9751210.github.io/posts/linux-timedatectl/</link>
+      <pubDate>Thu, 10 Nov 2022 17:14:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-timedatectl/</guid>
+      <description>linux-timedatectl</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改字串[sed]</title>
+      <link>https://sz9751210.github.io/posts/linux-sed/</link>
+      <pubDate>Wed, 09 Nov 2022 17:01:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-sed/</guid>
+      <description>linux-sed</description>
+    </item>
+    
+    <item>
+      <title>Linux 篩選字串[grep]</title>
+      <link>https://sz9751210.github.io/posts/linux-grep/</link>
+      <pubDate>Wed, 09 Nov 2022 14:59:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-grep/</guid>
+      <description>linux-grep</description>
+    </item>
+    
+    <item>
+      <title>Linux 同步檔案[rsync]</title>
+      <link>https://sz9751210.github.io/posts/linux-rsync/</link>
+      <pubDate>Tue, 08 Nov 2022 12:21:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-rsync/</guid>
+      <description>linux-rsync</description>
+    </item>
+    
+    <item>
+      <title>Linux 查找文件[find]</title>
+      <link>https://sz9751210.github.io/posts/linux-find/</link>
+      <pubDate>Mon, 07 Nov 2022 16:52:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-find/</guid>
+      <description>linux-find</description>
+    </item>
+    
+    <item>
+      <title>Linux 日誌管理[logrotate]</title>
+      <link>https://sz9751210.github.io/posts/linux-logrotate/</link>
+      <pubDate>Thu, 03 Nov 2022 17:32:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-logrotate/</guid>
+      <description>linux-logrotate</description>
+    </item>
+    
+    <item>
+      <title>Linux 擷取部分字元[cut]</title>
+      <link>https://sz9751210.github.io/posts/linux-cut/</link>
+      <pubDate>Thu, 03 Nov 2022 16:48:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-cut/</guid>
+      <description>linux-cut</description>
+    </item>
+    
+    <item>
+      <title>Linux 複製檔案[cp]</title>
+      <link>https://sz9751210.github.io/posts/linux-cp/</link>
+      <pubDate>Tue, 01 Nov 2022 10:22:12 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-cp/</guid>
+      <description>linux-cp</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改權限[chmod]</title>
+      <link>https://sz9751210.github.io/posts/linux-chmod/</link>
+      <pubDate>Sun, 30 Oct 2022 21:45:01 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-chmod/</guid>
+      <description>linux-chmod</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改群組[chgrp]</title>
+      <link>https://sz9751210.github.io/posts/linux-chgrp/</link>
+      <pubDate>Thu, 27 Oct 2022 20:36:51 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-chgrp/</guid>
+      <description>linux-chgrp</description>
+    </item>
+    
+    <item>
+      <title>Linux 分頁查看檔案[less]</title>
+      <link>https://sz9751210.github.io/posts/linux-less/</link>
+      <pubDate>Wed, 26 Oct 2022 19:08:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-less/</guid>
+      <description>linux-less</description>
+    </item>
+    
+    <item>
+      <title>Linux 查看結尾文字[tail]</title>
+      <link>https://sz9751210.github.io/posts/linux-tail/</link>
+      <pubDate>Tue, 25 Oct 2022 16:04:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-tail/</guid>
+      <description>linux-tail</description>
+    </item>
+    
+    <item>
+      <title>Linux 查看開頭文字[head]</title>
+      <link>https://sz9751210.github.io/posts/linux-head/</link>
+      <pubDate>Mon, 24 Oct 2022 16:47:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-head/</guid>
+      <description>linux-head</description>
+    </item>
+    
+    <item>
+      <title>Linux 查看檔案[cat]</title>
+      <link>https://sz9751210.github.io/posts/linux-cat/</link>
+      <pubDate>Wed, 19 Oct 2022 10:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-cat/</guid>
+      <description>linux-cat</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改目錄權限[chown]</title>
+      <link>https://sz9751210.github.io/posts/linux-chown/</link>
+      <pubDate>Tue, 18 Oct 2022 15:37:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-chown/</guid>
+      <description>linux-chown</description>
+    </item>
+    
+    <item>
+      <title>系統異常指標除錯</title>
+      <link>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</link>
+      <pubDate>Mon, 17 Oct 2022 16:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</guid>
+      <description>&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
+&lt;p&gt;幫自己紀錄一下如何處理linux機器的指標&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

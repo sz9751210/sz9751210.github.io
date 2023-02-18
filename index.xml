@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/</link>
+    <description>Recent content on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Feb 2023 15:23:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ansible k8s</title>
+      <link>https://sz9751210.github.io/posts/ansible-k8s/</link>
+      <pubDate>Tue, 14 Feb 2023 15:23:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/ansible-k8s/</guid>
+      <description>ansible k8s</description>
+    </item>
+    
+    <item>
+      <title>閱讀筆記：15 Best Practices when working with Docker</title>
+      <link>https://sz9751210.github.io/posts/15-best-practices-when-working-with-docker/</link>
+      <pubDate>Tue, 14 Feb 2023 13:56:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/15-best-practices-when-working-with-docker/</guid>
+      <description>15 Best Practices when working with Docker</description>
+    </item>
+    
+    <item>
+      <title>Linux 定時任務[crontab]</title>
+      <link>https://sz9751210.github.io/posts/linux-crontab/</link>
+      <pubDate>Thu, 09 Feb 2023 11:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-crontab/</guid>
+      <description>linux-crontab</description>
+    </item>
+    
+    <item>
+      <title>gcp遠端連線的幾種方式</title>
+      <link>https://sz9751210.github.io/posts/gcp%E8%B7%B3%E6%9D%BF%E6%A9%9Fssh%E7%9B%B8%E9%97%9C%E8%A8%AD%E5%AE%9A/</link>
+      <pubDate>Thu, 09 Feb 2023 10:49:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/gcp%E8%B7%B3%E6%9D%BF%E6%A9%9Fssh%E7%9B%B8%E9%97%9C%E8%A8%AD%E5%AE%9A/</guid>
+      <description>gcp遠端連線的幾種方式</description>
+    </item>
+    
+    <item>
+      <title>terraform-ansible</title>
+      <link>https://sz9751210.github.io/posts/terraform-ansible/</link>
+      <pubDate>Mon, 23 Jan 2023 19:52:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/terraform-ansible/</guid>
+      <description>terraform-ansible</description>
+    </item>
+    
+    <item>
+      <title>Centos 7 安裝gitlab</title>
+      <link>https://sz9751210.github.io/posts/centos7%E5%AE%89%E8%A3%9Dgitlab/</link>
+      <pubDate>Mon, 23 Jan 2023 14:55:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/centos7%E5%AE%89%E8%A3%9Dgitlab/</guid>
+      <description>Centos 7 安裝gitlab</description>
+    </item>
+    
+    <item>
+      <title>Gitlab 修改密碼</title>
+      <link>https://sz9751210.github.io/posts/gitlab-%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A2%BC/</link>
+      <pubDate>Mon, 23 Jan 2023 13:30:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/gitlab-%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A2%BC/</guid>
+      <description>gitlab 修改密碼</description>
+    </item>
+    
+    <item>
+      <title>leetcode 26. Remove Duplicates from Sorted Array</title>
+      <link>https://sz9751210.github.io/posts/leetcode-26/</link>
+      <pubDate>Sat, 17 Dec 2022 19:25:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-26/</guid>
+      <description>LeetCode 26. Remove Duplicates from Sorted Array</description>
+    </item>
+    
+    <item>
+      <title>leetcode 1089 - Duplicate Zeros</title>
+      <link>https://sz9751210.github.io/posts/leetcode-1089/</link>
+      <pubDate>Thu, 15 Dec 2022 21:31:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-1089/</guid>
+      <description>leetcode 1089 - Duplicate Zeros</description>
+    </item>
+    
+    <item>
+      <title>leetcode 01. two sum</title>
+      <link>https://sz9751210.github.io/posts/leetcode-01/</link>
+      <pubDate>Wed, 14 Dec 2022 17:02:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-01/</guid>
+      <description>leetcode 01. two sum</description>
+    </item>
+    
+    <item>
+      <title>leetCode 27. Remove Element</title>
+      <link>https://sz9751210.github.io/posts/leetcode-27/</link>
+      <pubDate>Tue, 13 Dec 2022 15:26:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-27/</guid>
+      <description>leetCode 27. Remove Element</description>
+    </item>
+    
+    <item>
+      <title>Linux 列出登入資訊[last]</title>
+      <link>https://sz9751210.github.io/posts/linux-last/</link>
+      <pubDate>Mon, 05 Dec 2022 16:51:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-last/</guid>
+      <description>linux-last</description>
+    </item>
+    
+    <item>
+      <title>Linux 顯示用戶資訊[id]</title>
+      <link>https://sz9751210.github.io/posts/linux-id/</link>
+      <pubDate>Fri, 02 Dec 2022 14:56:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-id/</guid>
+      <description>linux-id</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改密碼[passwd]</title>
+      <link>https://sz9751210.github.io/posts/linux-passwd/</link>
+      <pubDate>Tue, 15 Nov 2022 15:29:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-passwd/</guid>
+      <description>linux-passwd</description>
+    </item>
+    
+    <item>
+      <title>k8s-reloader</title>
+      <link>https://sz9751210.github.io/posts/k8s-reloader/</link>
+      <pubDate>Fri, 11 Nov 2022 15:05:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-reloader/</guid>
+      <description>k8s-reloader</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改時間[timedatectl]</title>
+      <link>https://sz9751210.github.io/posts/linux-timedatectl/</link>
+      <pubDate>Thu, 10 Nov 2022 17:14:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-timedatectl/</guid>
+      <description>linux-timedatectl</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改字串[sed]</title>
+      <link>https://sz9751210.github.io/posts/linux-sed/</link>
+      <pubDate>Wed, 09 Nov 2022 17:01:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-sed/</guid>
+      <description>linux-sed</description>
+    </item>
+    
+    <item>
+      <title>Linux 篩選字串[grep]</title>
+      <link>https://sz9751210.github.io/posts/linux-grep/</link>
+      <pubDate>Wed, 09 Nov 2022 14:59:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-grep/</guid>
+      <description>linux-grep</description>
+    </item>
+    
+    <item>
+      <title>Linux 同步檔案[rsync]</title>
+      <link>https://sz9751210.github.io/posts/linux-rsync/</link>
+      <pubDate>Tue, 08 Nov 2022 12:21:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-rsync/</guid>
+      <description>linux-rsync</description>
+    </item>
+    
+    <item>
+      <title>Linux 查找文件[find]</title>
+      <link>https://sz9751210.github.io/posts/linux-find/</link>
+      <pubDate>Mon, 07 Nov 2022 16:52:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-find/</guid>
+      <description>linux-find</description>
+    </item>
+    
+    <item>
+      <title>Linux 日誌管理[logrotate]</title>
+      <link>https://sz9751210.github.io/posts/linux-logrotate/</link>
+      <pubDate>Thu, 03 Nov 2022 17:32:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-logrotate/</guid>
+      <description>linux-logrotate</description>
+    </item>
+    
+    <item>
+      <title>Linux 擷取部分字元[cut]</title>
+      <link>https://sz9751210.github.io/posts/linux-cut/</link>
+      <pubDate>Thu, 03 Nov 2022 16:48:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-cut/</guid>
+      <description>linux-cut</description>
+    </item>
+    
+    <item>
+      <title>git-刪除遠程分支</title>
+      <link>https://sz9751210.github.io/posts/git-%E5%88%AA%E9%99%A4%E9%81%A0%E7%A8%8B%E5%88%86%E6%94%AF/</link>
+      <pubDate>Thu, 03 Nov 2022 10:11:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/git-%E5%88%AA%E9%99%A4%E9%81%A0%E7%A8%8B%E5%88%86%E6%94%AF/</guid>
+      <description>git-刪除遠程分支</description>
+    </item>
+    
+    <item>
+      <title>python-installation</title>
+      <link>https://sz9751210.github.io/posts/python-installation/</link>
+      <pubDate>Wed, 02 Nov 2022 17:09:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/python-installation/</guid>
+      <description>python-installation</description>
+    </item>
+    
+    <item>
+      <title>Linux 複製檔案[cp]</title>
+      <link>https://sz9751210.github.io/posts/linux-cp/</link>
+      <pubDate>Tue, 01 Nov 2022 10:22:12 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-cp/</guid>
+      <description>linux-cp</description>
+    </item>
+    
+    <item>
+      <title>gitignore失效的解決辦法</title>
+      <link>https://sz9751210.github.io/posts/gitignore%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</link>
+      <pubDate>Mon, 31 Oct 2022 16:10:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/gitignore%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</guid>
+      <description>gitignore失效的解決辦法</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改權限[chmod]</title>
+      <link>https://sz9751210.github.io/posts/linux-chmod/</link>
+      <pubDate>Sun, 30 Oct 2022 21:45:01 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-chmod/</guid>
+      <description>linux-chmod</description>
+    </item>
+    
+    <item>
+      <title>Hugo Setup</title>
+      <link>https://sz9751210.github.io/posts/hugo-setup/</link>
+      <pubDate>Sun, 30 Oct 2022 19:09:17 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/hugo-setup/</guid>
+      <description>紀錄一下hugo的建置過程
+1. 安裝hugo windows安裝 Chocolatey choco install hugo -confirm Scoop scoop install hugo macos安裝 brew install hugo linux安裝 sudo apt-get install hugo 2. 建立網站 hugo new site myblog -f yaml 3. 下載主題 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 4. 建立about, tags page 建立about page hugo new about.md 修改config檔 menu: main: - identifier: tags name: tags url: /tags/ weight: 1 - identifier: about name: about url: /about/ weight: 2 5. 依照需求美化版面 Hugo PaperMod 優化</description>
+    </item>
+    
+    <item>
+      <title>Hugo PaperMod 優化</title>
+      <link>https://sz9751210.github.io/posts/hugo-papermod-enforce/</link>
+      <pubDate>Sun, 30 Oct 2022 12:26:11 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/hugo-papermod-enforce/</guid>
+      <description>簡單紀錄一下papermod主題的優化，持續更新&amp;hellip;
+1. 目錄放側邊 替換以下路徑的code layouts/partials/toc.html
+{{- $headers := findRE &amp;#34;&amp;lt;h[1-6].*?&amp;gt;(.|\n])+?&amp;lt;/h[1-6]&amp;gt;&amp;#34; .Content -}} {{- $has_headers := ge (len $headers) 1 -}} {{- if $has_headers -}} &amp;lt;aside id=&amp;#34;toc-container&amp;#34; class=&amp;#34;toc-container wide&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;toc&amp;#34;&amp;gt; &amp;lt;details {{if (.Param &amp;#34;TocOpen&amp;#34;) }} open{{ end }}&amp;gt; &amp;lt;summary accesskey=&amp;#34;c&amp;#34; title=&amp;#34;(Alt + C)&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;details&amp;#34;&amp;gt;{{- i18n &amp;#34;toc&amp;#34; | default &amp;#34;Table of Contents&amp;#34; }}&amp;lt;/span&amp;gt; &amp;lt;/summary&amp;gt; &amp;lt;div class=&amp;#34;inner&amp;#34;&amp;gt; {{- $largest := 6 -}} {{- range $headers -}} {{- $headerLevel := index (findRE &amp;#34;[1-6]&amp;#34; .</description>
+    </item>
+    
+    <item>
+      <title>Quote</title>
+      <link>https://sz9751210.github.io/quote/</link>
+      <pubDate>Sat, 29 Oct 2022 17:28:33 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/quote/</guid>
+      <description> Know How, Know Why, Know What and When 把時間花在哪裡，成就就在哪裡 time is your most valuable resource, speed is your best friend 用實作來學習，永遠是初學的王道!以實戰來練習，永遠是進階的捷徑! Practice makes perfect. All experience comes from mistakes. Don&amp;rsquo;t be one of the leeches. </description>
+    </item>
+    
+    <item>
+      <title>Linux 修改群組[chgrp]</title>
+      <link>https://sz9751210.github.io/posts/linux-chgrp/</link>
+      <pubDate>Thu, 27 Oct 2022 20:36:51 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-chgrp/</guid>
+      <description>linux-chgrp</description>
+    </item>
+    
+    <item>
+      <title>關於我</title>
+      <link>https://sz9751210.github.io/about/</link>
+      <pubDate>Thu, 27 Oct 2022 20:16:50 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/about/</guid>
+      <description>專注於學習devops的菜雞工程師，凡事力求一鍵部署，喜歡寫一些小玩具嘗試新技術，時而分享好書的閱讀心得以及好文。</description>
+    </item>
+    
+    <item>
+      <title>Linux 分頁查看檔案[less]</title>
+      <link>https://sz9751210.github.io/posts/linux-less/</link>
+      <pubDate>Wed, 26 Oct 2022 19:08:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-less/</guid>
+      <description>linux-less</description>
+    </item>
+    
+    <item>
+      <title>Linux 查看結尾文字[tail]</title>
+      <link>https://sz9751210.github.io/posts/linux-tail/</link>
+      <pubDate>Tue, 25 Oct 2022 16:04:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-tail/</guid>
+      <description>linux-tail</description>
+    </item>
+    
+    <item>
+      <title>Linux 查看開頭文字[head]</title>
+      <link>https://sz9751210.github.io/posts/linux-head/</link>
+      <pubDate>Mon, 24 Oct 2022 16:47:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-head/</guid>
+      <description>linux-head</description>
+    </item>
+    
+    <item>
+      <title>Linux 查看檔案[cat]</title>
+      <link>https://sz9751210.github.io/posts/linux-cat/</link>
+      <pubDate>Wed, 19 Oct 2022 10:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-cat/</guid>
+      <description>linux-cat</description>
+    </item>
+    
+    <item>
+      <title>Linux 修改目錄權限[chown]</title>
+      <link>https://sz9751210.github.io/posts/linux-chown/</link>
+      <pubDate>Tue, 18 Oct 2022 15:37:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/linux-chown/</guid>
+      <description>linux-chown</description>
+    </item>
+    
+    <item>
+      <title>系統異常指標除錯</title>
+      <link>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</link>
+      <pubDate>Mon, 17 Oct 2022 16:25:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E7%B3%BB%E7%B5%B1%E7%95%B0%E5%B8%B8%E6%8C%87%E6%A8%99%E9%99%A4%E9%8C%AF/</guid>
+      <description>&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
+&lt;p&gt;幫自己紀錄一下如何處理linux機器的指標&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>windows terminal &#43; git-bash &#43; zsh &#43; oh-my-zsh</title>
+      <link>https://sz9751210.github.io/posts/windows-terminal-setup/</link>
+      <pubDate>Mon, 17 Oct 2022 14:50:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/windows-terminal-setup/</guid>
+      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
+&lt;p&gt;之前因為常需要跑devops相關工具，因此開發環境完全是用Ubuntu的圖形化介面，但偶爾會遇到一些延遲以及小bug，偶然的機會下發現在windows設定git-bash似乎也能達到一樣的效果，也能順便增加對windows開發人員生態系的了解，因此本篇主要是針對如何設定美麗的terminal以及vscode也整合，紀錄一下以便日後查詢&lt;/p&gt;
+&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
+&lt;p&gt;欲安裝項目&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;windows terminal&lt;/li&gt;
+&lt;li&gt;git-bash&lt;/li&gt;
+&lt;li&gt;zsh&lt;/li&gt;
+&lt;li&gt;oh-my-zsh&lt;/li&gt;
+&lt;li&gt;p10k&lt;/li&gt;
+&lt;li&gt;plugins&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>K8S-monitor</title>
+      <link>https://sz9751210.github.io/posts/k8s-monitor/</link>
+      <pubDate>Mon, 17 Oct 2022 10:41:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-monitor/</guid>
+      <description>K8S-monitor</description>
+    </item>
+    
+    <item>
+      <title>喬叔帶你上手Elastic Stack：Elasticsearch的最佳實踐與最佳化技巧</title>
+      <link>https://sz9751210.github.io/posts/%E5%96%AC%E5%8F%94%E5%B8%B6%E4%BD%A0%E4%B8%8A%E6%89%8Belastic-stackelasticsearch%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90%E8%88%87%E6%9C%80%E4%BD%B3%E5%8C%96%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Mon, 17 Oct 2022 10:20:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E5%96%AC%E5%8F%94%E5%B8%B6%E4%BD%A0%E4%B8%8A%E6%89%8Belastic-stackelasticsearch%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90%E8%88%87%E6%9C%80%E4%BD%B3%E5%8C%96%E6%8A%80%E5%B7%A7/</guid>
+      <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
+&lt;p&gt;當初在研究Elastic Stack，ILM這部份還不熟時，剛好搜尋到喬叔的鐵人賽文章，閱讀時彷彿挖到了寶，對於Index的管理講解得非常透徹，從Index如何被建立，使用Template以及Alias，再到導入ILM以及搭配Rollover以及Shrink等方式達到索引、搜尋、儲存等最佳化，一步一步穩定順利的完成，真的很感動。&lt;/p&gt;
+&lt;p&gt;之前使用Elastic Stack並沒有使用到ILM的配置，所以單個Index可能會超過官方建議的大小，並且使用的是以一天為單位，但實務上並非每個服務都是固定的大小，因此導入ILM對於整體的效能會有更好的幫助，並且使用三溫暖架構，讓最新的log都放在效能較好的機器上，較舊的log則隨著自定義的時間轉移到效能較差的機器上，讓搜尋能有更好的體驗。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Soft Skills 軟實力｜軟體開發人員的生存手冊</title>
+      <link>https://sz9751210.github.io/posts/soft-skills-%E8%BB%9F%E5%AF%A6%E5%8A%9B%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8A/</link>
+      <pubDate>Mon, 17 Oct 2022 10:00:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/soft-skills-%E8%BB%9F%E5%AF%A6%E5%8A%9B%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8A/</guid>
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;像管理公司一樣管理自己，像享受遊戲一樣享受生活&lt;/li&gt;
+&lt;li&gt;硬實力決定起點，軟實力決定能走多快多遠&lt;/li&gt;
+&lt;li&gt;Learning, Doing, Learning and Teaching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Purpose of the book 書的目的&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;教導你如何成為全方位的軟體開發人員&lt;/li&gt;
+&lt;li&gt;期望給你各方面有用、實用又可用的忠告。&lt;/li&gt;
+&lt;li&gt;告訴你軟技能的重要性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My Top 3 Quotes 我最喜歡的 3 句 Quotes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;越努力將船駛向失敗，從相反方向吹來的成功之風就越強&lt;/li&gt;
+&lt;li&gt;唯有讓我參與其中，才是真正的學習&lt;/li&gt;
+&lt;li&gt;信念轉成思想 思想化作文字 文字觸發行動 行動成為習慣 習慣建立價值 價值決定命運&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>ANSIBLE-ELK</title>
+      <link>https://sz9751210.github.io/posts/ansible-elk/</link>
+      <pubDate>Mon, 17 Oct 2022 09:57:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/ansible-elk/</guid>
+      <description>ANSIBLE-ELK</description>
+    </item>
+    
+    <item>
+      <title>卡片盒筆記：最高效思考筆記術，德國教授超強秘技，促進寫作、學習與思考，使你洞見源源不斷，成為專家</title>
+      <link>https://sz9751210.github.io/posts/%E5%8D%A1%E7%89%87%E7%9B%92%E7%AD%86%E8%A8%98%E6%9C%80%E9%AB%98%E6%95%88%E6%80%9D%E8%80%83%E7%AD%86%E8%A8%98%E8%A1%93%E5%BE%B7%E5%9C%8B%E6%95%99%E6%8E%88%E8%B6%85%E5%BC%B7%E7%A7%98%E6%8A%80%E4%BF%83%E9%80%B2%E5%AF%AB%E4%BD%9C%E5%AD%B8%E7%BF%92%E8%88%87%E6%80%9D%E8%80%83%E4%BD%BF%E4%BD%A0%E6%B4%9E%E8%A6%8B%E6%BA%90%E6%BA%90%E4%B8%8D%E6%96%B7%E6%88%90%E7%82%BA%E5%B0%88%E5%AE%B6/</link>
+      <pubDate>Sun, 09 Oct 2022 12:16:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E5%8D%A1%E7%89%87%E7%9B%92%E7%AD%86%E8%A8%98%E6%9C%80%E9%AB%98%E6%95%88%E6%80%9D%E8%80%83%E7%AD%86%E8%A8%98%E8%A1%93%E5%BE%B7%E5%9C%8B%E6%95%99%E6%8E%88%E8%B6%85%E5%BC%B7%E7%A7%98%E6%8A%80%E4%BF%83%E9%80%B2%E5%AF%AB%E4%BD%9C%E5%AD%B8%E7%BF%92%E8%88%87%E6%80%9D%E8%80%83%E4%BD%BF%E4%BD%A0%E6%B4%9E%E8%A6%8B%E6%BA%90%E6%BA%90%E4%B8%8D%E6%96%B7%E6%88%90%E7%82%BA%E5%B0%88%E5%AE%B6/</guid>
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;為了學習而寫&lt;/li&gt;
+&lt;li&gt;闡述是最有效的學習方法&lt;/li&gt;
+&lt;li&gt;簡要記述內容中提出的主要想法，而不是蒐集引文，並努力思考與其他不同內容的想法連結再一起&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Purpose of the book 書的目的&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;提供大腦一個外部記憶體去儲存細節與參考資料，讓大腦能專注在發揮創造力與深入的學習&lt;/li&gt;
+&lt;li&gt;透過原子性將多個重點的大筆記拆解成像是卡片一樣的小筆記&lt;/li&gt;
+&lt;li&gt;具有連結性，將各個小筆記的點透過關聯性連結成大筆記&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My Top 3 Quotes 我最喜歡的 3 句 Quotes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果你無法清楚地說出來，你就無法真正的理解&lt;/li&gt;
+&lt;li&gt;人必須要找出想法的不同之處，掌握其中的差異，不管這些差異式很明顯可見，還是隱藏在概念裡&lt;/li&gt;
+&lt;li&gt;正確的學習代表的是理解，而理解是指用有意義的方式，連接到已知的知識&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Portainer：一款圖形化容器管理工具</title>
+      <link>https://sz9751210.github.io/posts/portainer-intro/</link>
+      <pubDate>Sun, 10 Jul 2022 15:45:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/portainer-intro/</guid>
+      <description>&lt;h2 id=&#34;心得&#34;&gt;📔心得&lt;/h2&gt;
+&lt;p&gt;一直以來都在使用container下去跑測試環境，所以都是使用docker指令下去做除錯，最近因緣際會下找到這一款可以透過UI看全部的container狀態，真的覺得好用到爆炸，所以來介紹一下這款容器化管理神器。&lt;/p&gt;
+&lt;p&gt;基本上能用docker指令做到的事情，portainer都能做到，像是docker ps，查看所有container，接著點擊某個container，就會顯示基本的container訊息。裡面能針對這個container查看logs，inspect，stat等等，功能非常齊全。
+我自己最常使用的就是docker logs，透過UI可以直接點擊Logs查看，方便很多。&lt;/p&gt;
+&lt;p&gt;依照類型也會分出stack，container，image，network，volume等等，都可各別下去做新增，查看與管理，有時候東西建了忘記刪，這邊會顯示unused，打勾後就能一鍵移除。&lt;/p&gt;
+&lt;p&gt;portainer從拉image到deploy container都能透過ui完成，對於更新版本也是很有一套，可以透過設定pull latest並點擊recreate進行container的更新，對於常常使用container測試者真的是一大福音。&lt;/p&gt;
+&lt;h2 id=&#34;簡介&#34;&gt;👨‍💻簡介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;portainer主要讓我們能有個UI介面管理我們的docker，對於初學docker指令不太熟的使用者能快速進入docker的世界，並且可從docker hub一鍵拉取image，設定network、volume等進行快速部署，都可藉由portainer完成。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>CentOS 安裝docker 和 docker-compose</title>
+      <link>https://sz9751210.github.io/posts/centos-%E5%AE%89%E8%A3%9Ddocker-%E5%92%8C-docker-compose/</link>
+      <pubDate>Sun, 03 Jul 2022 20:16:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/centos-%E5%AE%89%E8%A3%9Ddocker-%E5%92%8C-docker-compose/</guid>
+      <description>&lt;h2 id=&#34;簡介&#34;&gt;簡介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;因常會在新機器跑container，藉此紀錄安裝過程，順便寫下腳本安裝懶人包&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>ELFK-stack-monitor</title>
+      <link>https://sz9751210.github.io/posts/elfk-stack-monitor/</link>
+      <pubDate>Sun, 03 Jul 2022 19:41:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/elfk-stack-monitor/</guid>
+      <description>ELFK-stack-monitor</description>
+    </item>
+    
+    <item>
+      <title>TICK-Stack-tutorial</title>
+      <link>https://sz9751210.github.io/posts/tick-stack-tutorial/</link>
+      <pubDate>Sun, 12 Jun 2022 19:12:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/tick-stack-tutorial/</guid>
+      <description>TICK-Stack-tutorial</description>
+    </item>
+    
+    <item>
+      <title>python 基礎</title>
+      <link>https://sz9751210.github.io/posts/python-%E5%9F%BA%E7%A4%8E/</link>
+      <pubDate>Sun, 12 Jun 2022 17:45:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/python-%E5%9F%BA%E7%A4%8E/</guid>
+      <description>python-basic</description>
+    </item>
+    
+    <item>
+      <title>Jenkins 安裝教學(CentOS)</title>
+      <link>https://sz9751210.github.io/posts/jenkins-installation-centos/</link>
+      <pubDate>Sun, 12 Jun 2022 06:50:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/jenkins-installation-centos/</guid>
+      <description>&lt;h1 id=&#34;centos-7-安裝及設定jenkins&#34;&gt;CentOS 7 安裝及設定Jenkins&lt;/h1&gt;
+&lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
+&lt;p&gt;開源且免費的CI工具，由Java編寫的，提供了持續構建以及部署的功能，是一個自動化的server&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>比特幣投資金律：加密貨幣實戰教學與進階獲利法</title>
+      <link>https://sz9751210.github.io/posts/%E6%AF%94%E7%89%B9%E5%B9%A3%E6%8A%95%E8%B3%87%E9%87%91%E5%BE%8B%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E5%AF%A6%E6%88%B0%E6%95%99%E5%AD%B8%E8%88%87%E9%80%B2%E9%9A%8E%E7%8D%B2%E5%88%A9%E6%B3%95/</link>
+      <pubDate>Fri, 10 Jun 2022 21:49:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E6%AF%94%E7%89%B9%E5%B9%A3%E6%8A%95%E8%B3%87%E9%87%91%E5%BE%8B%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E5%AF%A6%E6%88%B0%E6%95%99%E5%AD%B8%E8%88%87%E9%80%B2%E9%9A%8E%E7%8D%B2%E5%88%A9%E6%B3%95/</guid>
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;從歷史帶到實戰的基礎書籍&lt;/li&gt;
+&lt;li&gt;由淺入深循序漸進的步調講解每個章節的主題&lt;/li&gt;
+&lt;li&gt;極度白話文的一本書&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How the Book Changed Me? 這本書為我帶來什麼改變&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更了解自己對的區塊鏈與加密貨幣的意義&lt;/li&gt;
+&lt;li&gt;對於詐騙手法有更多的了解以及知名的案例&lt;/li&gt;
+&lt;li&gt;對於泡沫風險分析有更加的了解&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My Top 3 Quotes 我最喜歡的 3 句 Quotes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DYOR&lt;/li&gt;
+&lt;li&gt;FOMO&lt;/li&gt;
+&lt;li&gt;量化交易&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>leetCode 13. Roman to Integer</title>
+      <link>https://sz9751210.github.io/posts/leetcode-13/</link>
+      <pubDate>Sun, 05 Jun 2022 18:17:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/leetcode-13/</guid>
+      <description> 題目描述：給一個字串，依照題目給的表格，計算出字串對應的值並做加總
+思路：依照題目給的表格做一個字典，接著定義一個變數做加總，並依照題目所給的前一位的值小於當前的值時，做相對應的處理
+class Solution: def romanToInt(self, s: str) -&amp;gt; int: numeral_map = {&amp;#34;I&amp;#34;:1, &amp;#34;V&amp;#34;:5, &amp;#34;X&amp;#34;:10, &amp;#34;L&amp;#34;:50, &amp;#34;C&amp;#34;:100, &amp;#34;D&amp;#34;:500, &amp;#34;M&amp;#34;:1000} result = 0 for i in range(len(s)): if i&amp;gt;0 and numeral_map[s[i]] &amp;gt; numeral_map[s[i-1]]: result += numeral_map[s[i]] - 2* numeral_map[s[i-1]] else: result += numeral_map[s[i]] return result </description>
+    </item>
+    
+    <item>
+      <title>刻意練習：原創者全面解析, 比天賦更關鍵的學習法</title>
+      <link>https://sz9751210.github.io/posts/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/</link>
+      <pubDate>Sun, 05 Jun 2022 12:56:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92/</guid>
+      <description>&lt;h2 id=&#34;quick-review&#34;&gt;👀QUICK REVIEW&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The book in 3 Sentences 用三段話說明這本書的內容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;天才並非真的存在，刻意練習才是真正通往專家的唯一途徑&lt;/li&gt;
+&lt;li&gt;練習的質與量勝過於單純的練習量&lt;/li&gt;
+&lt;li&gt;專注投入與信念至關重要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How the Book Changed Me? 這本書為我帶來什麼改變&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;讓練習在你眼中成為一種投資，而不是耗費&lt;/li&gt;
+&lt;li&gt;沒有人可以不投注及大量的練習就發展出非凡技能&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My Top 3 Quotes 我最喜歡的 3 句 Quotes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人之所以停止學習、不再進步，不是因為到達天生能力的極限，而是因為某些原因不再練習，或者從未開始練習。&lt;/li&gt;
+&lt;li&gt;技能越高超，心智表徵越成熟，越了解這領域，代表自己更懂欠缺甚麼，也因此更能發揮刻意練習的效果，磨練技巧可以改善心智表徵，心智表徵又有助於技能進步&lt;/li&gt;
+&lt;li&gt;當你不再相信自己能達成目標時千萬別放棄，先和自己約定好，等到重回先前水準或突破高原期後再說，到時大概就會繼續下去了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>心流：高手都在研究的最優體驗心理學</title>
+      <link>https://sz9751210.github.io/posts/flow/</link>
+      <pubDate>Sun, 03 Oct 2021 12:46:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/flow/</guid>
+      <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
+&lt;p&gt;讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的副產物。所以本書就是在教如何找到自己的心流所在，讓我們能夠變得更快樂，更幸福。&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
