@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Mar 2023 20:43:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 10:28:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Service：Overview</title>
+      <link>https://sz9751210.github.io/posts/k8s-svc/</link>
+      <pubDate>Fri, 03 Mar 2023 10:28:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-svc/</guid>
+      <description>k8s-svc</description>
+    </item>
+    
     <item>
       <title>Kubernetes Pod：Overview</title>
       <link>https://sz9751210.github.io/posts/k8s-pod/</link>
