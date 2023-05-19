@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sz9751210.github.io/tags/docker/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/docker-compose/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/gitlab/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/docker-install-gitlab/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2023-05-19T15:56:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://sz9751210.github.io/tags/devops/</loc>
     <lastmod>2023-05-07T14:35:16+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -14,21 +49,6 @@
   </url><url>
     <loc>https://sz9751210.github.io/posts/gcp-cloud-nat/</loc>
     <lastmod>2023-04-13T21:08:06+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2023-05-07T14:35:16+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2023-05-07T14:35:16+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/</loc>
-    <lastmod>2023-05-07T14:35:16+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -82,11 +102,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/docker/</loc>
-    <lastmod>2023-02-15T06:58:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/posts/15-best-practices-when-working-with-docker/</loc>
     <lastmod>2023-02-15T06:58:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -123,11 +138,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/centos7%E5%AE%89%E8%A3%9Dgitlab/</loc>
-    <lastmod>2023-01-23T14:55:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/gitlab/</loc>
     <lastmod>2023-01-23T14:55:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
