@@ -2,38 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
+    <loc>https://sz9751210.github.io/tags/devops/</loc>
+    <lastmod>2023-05-31T22:03:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/ssh/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
+    <loc>https://sz9751210.github.io/tags/k8s/</loc>
+    <lastmod>2023-05-31T22:03:13+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/k8s-deploy/</loc>
+    <lastmod>2023-05-31T22:03:13+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/</loc>
+    <lastmod>2023-05-31T22:03:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/vscode/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/posts/vscode-wsl-ssh/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/wsl/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
+    <lastmod>2023-05-31T22:03:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/</loc>
-    <lastmod>2023-05-25T20:51:46+08:00</lastmod>
+    <lastmod>2023-05-31T22:03:13+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/ssh/</loc>
+    <lastmod>2023-05-30T16:50:52+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/vscode/</loc>
+    <lastmod>2023-05-30T16:50:52+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/vscode-wsl-ssh/</loc>
+    <lastmod>2023-05-30T16:50:52+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/wsl/</loc>
+    <lastmod>2023-05-30T16:50:52+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -57,11 +72,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/devops/</loc>
-    <lastmod>2023-05-07T14:35:16+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/tags/gcp/</loc>
     <lastmod>2023-04-13T21:08:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,13 +82,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/k8s/</loc>
-    <lastmod>2023-05-07T14:35:16+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/posts/k8s-rs/</loc>
-    <lastmod>2023-05-07T14:35:16+08:00</lastmod>
+    <lastmod>2023-05-30T11:11:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
