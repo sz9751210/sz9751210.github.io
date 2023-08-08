@@ -9,7 +9,52 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 May 2023 15:53:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 11:09:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在go中驗證SSL憑證</title>
+      <link>https://sz9751210.github.io/posts/how-to-validate-ssl-certificates-in-go/</link>
+      <pubDate>Mon, 07 Aug 2023 11:09:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/how-to-validate-ssl-certificates-in-go/</guid>
+      <description>## 如何在go中驗證SSL憑證</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes憑證過期：Unable To Connect To The Server: X509: Certificate Has Expired Or Is Not Yet Valid</title>
+      <link>https://sz9751210.github.io/posts/k8s-certificate-expired/</link>
+      <pubDate>Thu, 27 Jul 2023 13:56:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-certificate-expired/</guid>
+      <description>更新憑證</description>
+    </item>
+    
+    <item>
+      <title>WSL環境下使用websocket連線被拒</title>
+      <link>https://sz9751210.github.io/posts/wsl-websocket/</link>
+      <pubDate>Thu, 27 Jul 2023 09:39:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/wsl-websocket/</guid>
+      <description>WSL環境下使用websocket連線被拒的解決辦法</description>
+    </item>
+    
+    <item>
+      <title>Zeabur - 部署服務 從未如此簡單</title>
+      <link>https://sz9751210.github.io/posts/zeabur/</link>
+      <pubDate>Sun, 23 Jul 2023 14:06:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/zeabur/</guid>
+      <description>zeabur - deploying service with one click</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes ConfigMap</title>
+      <link>https://sz9751210.github.io/posts/k8s-configmap/</link>
+      <pubDate>Tue, 18 Jul 2023 20:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-configmap/</guid>
+      <description>k8s-ConfigMap</description>
+    </item>
+    
     <item>
       <title>Kubernetes Deployment：Overview</title>
       <link>https://sz9751210.github.io/posts/k8s-deploy/</link>
