@@ -38,12 +38,12 @@
     </item>
     
     <item>
-      <title>Go 變數與常數</title>
+      <title>淺談 Golang 變數與常數：宣告、初始化與使用</title>
       <link>https://sz9751210.github.io/posts/go-variable-and-const/</link>
       <pubDate>Wed, 16 Aug 2023 14:34:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/posts/go-variable-and-const/</guid>
-      <description>golang 變數與常數</description>
+      <description>在本篇文章中，我們將探索 Golang 中變數與常數的基本宣告方式、初始化方法以及使用技巧，助您深入了解這門語言的核心概念。</description>
     </item>
     
     <item>
