@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 24 Aug 2023 11:06:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 14:24:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go 語言中的動態陣列：深入解析切片</title>
+      <link>https://sz9751210.github.io/posts/go-slice/</link>
+      <pubDate>Thu, 24 Aug 2023 14:24:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-slice/</guid>
+      <description>切片是Go語言的動態資料結構，解決陣列大小限制，適用於動態集合操作，並具彈性、引用特性，適用於多場景。</description>
+    </item>
+    
     <item>
       <title>陣列：Go語言中的數據小倉庫</title>
       <link>https://sz9751210.github.io/posts/go-array/</link>
