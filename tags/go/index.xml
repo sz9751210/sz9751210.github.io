@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Aug 2023 16:36:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 14:54:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀 Golang 函數：從入門到精通</title>
+      <link>https://sz9751210.github.io/posts/go-func/</link>
+      <pubDate>Tue, 29 Aug 2023 14:54:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-func/</guid>
+      <description>go func</description>
+    </item>
+    
     <item>
       <title>淺談 Go 語言中的 Map - 快速查詢與狀態儲存的利器</title>
       <link>https://sz9751210.github.io/posts/go-map/</link>
