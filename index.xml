@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 29 Aug 2023 14:54:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 16:06:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>探索 Golang 中的結構體：如何有效地組織複雜資料</title>
+      <link>https://sz9751210.github.io/posts/go-struct/</link>
+      <pubDate>Wed, 30 Aug 2023 16:06:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-struct/</guid>
+      <description>探索Golang中結構體的優越性，以及如何運用結構體更有效地組織和處理複雜數據。了解結構體的基礎、複雜數據的嵌套組織，以及結構體方法的運用，助力你打造更有組織性、優雅的程式碼。</description>
+    </item>
+    
     <item>
       <title>🚀 Golang 函數：從入門到精通</title>
       <link>https://sz9751210.github.io/posts/go-func/</link>
