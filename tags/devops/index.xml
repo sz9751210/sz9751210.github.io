@@ -122,12 +122,12 @@
     </item>
     
     <item>
-      <title>ANSIBLE-ELK</title>
+      <title>在 GCP 環境下使用 Ansible 自動化建立 ELK Stack</title>
       <link>https://sz9751210.github.io/posts/ansible-elk/</link>
       <pubDate>Mon, 17 Oct 2022 09:57:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/ansible-elk/</guid>
-      <description>ANSIBLE-ELK</description>
+      <description>透過 Ansible 在 Google Cloud Platform (GCP) 環境下自動化建立 ELK Stack，分享學習心得和配置概要。</description>
     </item>
     
     <item>

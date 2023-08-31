@@ -9,7 +9,79 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Aug 2023 20:52:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 19:12:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interface：Go 語言中的抽象關鍵</title>
+      <link>https://sz9751210.github.io/posts/go-interface/</link>
+      <pubDate>Thu, 31 Aug 2023 19:12:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-interface/</guid>
+      <description>深入探索 Go 語言中的Interface概念，了解如何使用Interface定義物件間的契約，從而實現更具靈活性和可擴展性的程式碼。</description>
+    </item>
+    
+    <item>
+      <title>探索 Golang 中的結構體：如何有效地組織複雜資料</title>
+      <link>https://sz9751210.github.io/posts/go-struct/</link>
+      <pubDate>Wed, 30 Aug 2023 16:06:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-struct/</guid>
+      <description>探索Golang中結構體的優越性，以及如何運用結構體更有效地組織和處理複雜數據。了解結構體的基礎、複雜數據的嵌套組織，以及結構體方法的運用，助力你打造更有組織性、優雅的程式碼。</description>
+    </item>
+    
+    <item>
+      <title>🚀 Golang 函數：從入門到精通</title>
+      <link>https://sz9751210.github.io/posts/go-func/</link>
+      <pubDate>Tue, 29 Aug 2023 14:54:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-func/</guid>
+      <description>go func</description>
+    </item>
+    
+    <item>
+      <title>淺談 Go 語言中的 Map - 快速查詢與狀態儲存的利器</title>
+      <link>https://sz9751210.github.io/posts/go-map/</link>
+      <pubDate>Mon, 28 Aug 2023 16:36:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-map/</guid>
+      <description>go map</description>
+    </item>
+    
+    <item>
+      <title>Go 語言中的動態陣列：深入解析切片</title>
+      <link>https://sz9751210.github.io/posts/go-slice/</link>
+      <pubDate>Thu, 24 Aug 2023 14:24:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-slice/</guid>
+      <description>切片是Go語言的動態資料結構，解決陣列大小限制，適用於動態集合操作，並具彈性、引用特性，適用於多場景。</description>
+    </item>
+    
+    <item>
+      <title>陣列：Go語言中的數據小倉庫</title>
+      <link>https://sz9751210.github.io/posts/go-array/</link>
+      <pubDate>Thu, 24 Aug 2023 11:06:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-array/</guid>
+      <description>golang array</description>
+    </item>
+    
+    <item>
+      <title>探索 Go 語言的流程控制</title>
+      <link>https://sz9751210.github.io/posts/go-control-flow/</link>
+      <pubDate>Mon, 21 Aug 2023 16:01:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-control-flow/</guid>
+      <description>go control flow</description>
+    </item>
+    
+    <item>
+      <title>Go 語言的各種運算符</title>
+      <link>https://sz9751210.github.io/posts/go-operator/</link>
+      <pubDate>Mon, 21 Aug 2023 15:15:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-operator/</guid>
+      <description>golang 運算符</description>
+    </item>
+    
     <item>
       <title>Kubernetes Secret</title>
       <link>https://sz9751210.github.io/posts/k8s-secret/</link>
@@ -29,16 +101,16 @@
     </item>
     
     <item>
-      <title>Go 變數與常數</title>
+      <title>淺談 Golang 變數與常數：宣告、初始化與使用</title>
       <link>https://sz9751210.github.io/posts/go-variable-and-const/</link>
       <pubDate>Wed, 16 Aug 2023 14:34:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/posts/go-variable-and-const/</guid>
-      <description>golang 變數與常數</description>
+      <description>在本篇文章中，我們將探索 Golang 中變數與常數的基本宣告方式、初始化方法以及使用技巧，助您深入了解這門語言的核心概念。</description>
     </item>
     
     <item>
-      <title>Go syntax</title>
+      <title>🚀入門 Go 語言：關鍵概念、語法結構與實用技巧✨</title>
       <link>https://sz9751210.github.io/posts/go-syntax/</link>
       <pubDate>Tue, 15 Aug 2023 15:32:00 +0800</pubDate>
       
@@ -567,12 +639,12 @@
     </item>
     
     <item>
-      <title>ANSIBLE-ELK</title>
+      <title>在 GCP 環境下使用 Ansible 自動化建立 ELK Stack</title>
       <link>https://sz9751210.github.io/posts/ansible-elk/</link>
       <pubDate>Mon, 17 Oct 2022 09:57:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/posts/ansible-elk/</guid>
-      <description>ANSIBLE-ELK</description>
+      <description>透過 Ansible 在 Google Cloud Platform (GCP) 環境下自動化建立 ELK Stack，分享學習心得和配置概要。</description>
     </item>
     
     <item>
