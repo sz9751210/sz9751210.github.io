@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Interface：Go 語言中的抽象關鍵</title>
+      <link>https://sz9751210.github.io/posts/go-interface/</link>
+      <pubDate>Thu, 31 Aug 2023 19:12:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-interface/</guid>
+      <description>深入探索 Go 語言中的Interface概念，了解如何使用Interface定義物件間的契約，從而實現更具靈活性和可擴展性的程式碼。</description>
+    </item>
+    
+    <item>
       <title>探索 Golang 中的結構體：如何有效地組織複雜資料</title>
       <link>https://sz9751210.github.io/posts/go-struct/</link>
       <pubDate>Wed, 30 Aug 2023 16:06:00 +0800</pubDate>
