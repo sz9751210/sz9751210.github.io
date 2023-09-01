@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Aug 2023 16:06:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 15:39:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Package：Golang 專案的組織策略</title>
+      <link>https://sz9751210.github.io/posts/go-package/</link>
+      <pubDate>Fri, 01 Sep 2023 15:39:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-package/</guid>
+      <description>套件（Package）在Golang中扮演著組織和管理程式碼的重要角色</description>
+    </item>
+    
     <item>
       <title>探索 Golang 中的結構體：如何有效地組織複雜資料</title>
       <link>https://sz9751210.github.io/posts/go-struct/</link>
