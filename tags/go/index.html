@@ -6,9 +6,9 @@ package main import "fmt" func main() { defer fmt.Println("World") fmt.Print("He
 Defer的特性 延遲執行：defer 語句允許你安排一段程式碼，使它在包含它的函數返回之前執行，無論函數是否正常返回或出現錯誤。
 堆疊特性：多個 defer 語句按照後進先出（LIFO）的順序執行，這意味著最後一個被延遲的語句會最先執行。
 package main import "fmt" func main() { fmt.Println("Start") defer fmt.Println("Deferred 1") defer fmt.Println("Deferred 2") fmt.Println("End") } 根據defer特性的後進先出，輸出會是下面這個樣子
-Start End Deferred 2 Deferred 1 Defer的限制： 延遲的函數必須是無參數函數：你只能延遲無參數的函數調用，因為 defer 不允許傳遞參數。
+Start End Deferred 2 Deferred 1 Defer的限制 延遲的函數必須是無參數函數：你只能延遲無參數的函數調用，因為 defer 不允許傳遞參數。
 順序性：defer 語句的效果在函數內是有限定範圍的，它只在包含它的函數範圍內有效，無法跨函數使用。
-常見用法： 資源清理： 最常見的用途之一是在函數返回前關閉文件、釋放鎖、關閉資料庫連接等，以確保資源被正確釋放。
+常見用法 資源清理 最常見的用途之一是在函數返回前關閉文件、釋放鎖、關閉資料庫連接等，以確保資源被正確釋放。
 func readFile(filename string) (string, error) { file, err := os.Open(filename) if err != nil { return "", err } defer file....</p></div><footer class=entry-footer><span title='2023-09-06 20:30:00 +0800 CST'>2023-09-06</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;135 words&nbsp;·&nbsp;Alan</footer></div><figure class=entry-cover><img loading=lazy src=https://sz9751210.github.io/assets/go-defer/cover.png alt></figure><a class=entry-link aria-label="post link to Go語言的defer：確保後置操作的執行" href=https://sz9751210.github.io/posts/go-defer/></a></article><article class="post-entry tag-entry"><div class=post-info><header class=entry-header><h2>保證型別安全：使用Go的Type Assertions避免型別錯誤</h2></header><div class=entry-content><p>👨‍💻簡介 在Go中，假如我要判斷一個資料類型是甚麼，該怎麼做呢? Golang有一個功能叫做Type Assertions（類型斷言），它的作用就是能夠在運行時檢查我的資料類型，讓我在傳遞類型時能確保資料類型是正確的。
 Type Assertions 的基本概念 在Go中，Type Assertions的主要目的是在運行時將 interface 型別的值轉換為特定的實際型別。interface 是一種特殊的類型，它可以保存任何值的實例，但在運行時，我們可能需要確定該值的實際類型以執行相應的操作，以確保我們能夠安全地操作資料，這就是Type Assertions的作用。
 Type Assertions的基本語法如下：
