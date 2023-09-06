@@ -887,6 +887,15 @@ class Solution: def romanToInt(self, s: str) -&amp;gt; int: numeral_map = {&amp;
     </item>
     
     
+    <item>
+      <title>Go語言的defer：確保後置操作的執行</title>
+      <link>https://sz9751210.github.io/posts/go-defer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-defer/</guid>
+      <description>go defer</description>
+    </item>
+    
     
   </channel>
 </rss>
