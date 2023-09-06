@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Sep 2023 15:31:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Sep 2023 20:30:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go語言的defer：確保後置操作的執行</title>
+      <link>https://sz9751210.github.io/posts/go-defer/</link>
+      <pubDate>Wed, 06 Sep 2023 20:30:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-defer/</guid>
+      <description>go defer</description>
+    </item>
+    
     <item>
       <title>保證型別安全：使用Go的Type Assertions避免型別錯誤</title>
       <link>https://sz9751210.github.io/posts/go-type-assertion/</link>
@@ -866,15 +875,6 @@ class Solution: def romanToInt(self, s: str) -&amp;gt; int: numeral_map = {&amp;
       <guid>https://sz9751210.github.io/posts/flow/</guid>
       <description>&lt;h2 id=&#34;讀後心得&#34;&gt;📚讀後心得&lt;/h2&gt;
 &lt;p&gt;讀完心流這本書後，心流對我的生活有很大的改觀，心流，就是我們在做某件事情時，全神貫注進入渾然忘我的狀態，讓我想起有時候在想一段程式，如何做優化，並且一步一步漸漸達成，接著看一下時間，突然就快要下班了，原來我也體驗過心流，那種感覺真的是很美好，整個人很享受當下那種慢慢擊破目標，達成目的的過程，裡面也有講到一段話我覺得很棒，成功，就像幸福一樣，不是追求而來的；它是一個人全心全意投入一件事，而忘卻自我的副產物。所以本書就是在教如何找到自己的心流所在，讓我們能夠變得更快樂，更幸福。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Go語言的defer：確保後置操作的執行</title>
-      <link>https://sz9751210.github.io/posts/go-defer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sz9751210.github.io/posts/go-defer/</guid>
-      <description>go defer</description>
     </item>
     
   </channel>
