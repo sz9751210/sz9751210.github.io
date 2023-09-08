@@ -9,7 +9,25 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Sep 2023 20:30:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 15:50:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>淺談Go中的Pointer和記憶體管理</title>
+      <link>https://sz9751210.github.io/posts/go-pointer/</link>
+      <pubDate>Fri, 08 Sep 2023 15:50:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-pointer/</guid>
+      <description>go pointer</description>
+    </item>
+    
+    <item>
+      <title>錯誤處理的精髓：快速了解Go語言的 error、panic和recover</title>
+      <link>https://sz9751210.github.io/posts/go-error/</link>
+      <pubDate>Thu, 07 Sep 2023 11:30:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-error/</guid>
+      <description>golang error handling</description>
+    </item>
+    
     <item>
       <title>Go語言的defer：確保後置操作的執行</title>
       <link>https://sz9751210.github.io/posts/go-defer/</link>
