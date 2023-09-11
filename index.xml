@@ -9,7 +9,16 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Sep 2023 15:50:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 16:18:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>探索Goroutine：Go語言的併發魔法</title>
+      <link>https://sz9751210.github.io/posts/go-goroutine/</link>
+      <pubDate>Mon, 11 Sep 2023 16:18:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-goroutine/</guid>
+      <description>go goroutine</description>
+    </item>
+    
     <item>
       <title>淺談Go中的Pointer和記憶體管理</title>
       <link>https://sz9751210.github.io/posts/go-pointer/</link>
