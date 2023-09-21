@@ -2,32 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sz9751210.github.io/tags/go/</loc>
+    <lastmod>2023-09-21T19:55:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/</loc>
+    <lastmod>2023-09-21T19:55:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/</loc>
+    <lastmod>2023-09-21T19:55:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-os-exec/</loc>
+    <lastmod>2023-09-21T19:55:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2023-09-21T19:55:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-os-file/</loc>
+    <lastmod>2023-09-20T13:44:54+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-json/</loc>
+    <lastmod>2023-09-20T13:44:54+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-reflect/</loc>
+    <lastmod>2023-09-18T15:52:27+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-time/</loc>
+    <lastmod>2023-09-15T16:34:09+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-fmt/</loc>
+    <lastmod>2023-09-14T17:25:32+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://sz9751210.github.io/posts/go-waitgroup/</loc>
     <lastmod>2023-09-13T20:40:01+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2023-09-13T20:40:01+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/</loc>
-    <lastmod>2023-09-13T20:40:01+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/posts/go-channel/</loc>
-    <lastmod>2023-09-12T21:35:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/go/</loc>
-    <lastmod>2023-09-12T21:35:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/</loc>
     <lastmod>2023-09-12T21:35:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

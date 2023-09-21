@@ -9,7 +9,61 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Sep 2023 16:23:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Sep 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 Go 中操作系統</title>
+      <link>https://sz9751210.github.io/posts/go-os-exec/</link>
+      <pubDate>Thu, 21 Sep 2023 10:00:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-os-exec/</guid>
+      <description>go os exec</description>
+    </item>
+    
+    <item>
+      <title>如何在 Go 中操作檔案</title>
+      <link>https://sz9751210.github.io/posts/go-os-file/</link>
+      <pubDate>Wed, 20 Sep 2023 10:00:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-os-file/</guid>
+      <description>go os file</description>
+    </item>
+    
+    <item>
+      <title>如何在 Go 中處理 JSON</title>
+      <link>https://sz9751210.github.io/posts/go-json/</link>
+      <pubDate>Tue, 19 Sep 2023 10:00:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-json/</guid>
+      <description>go json</description>
+    </item>
+    
+    <item>
+      <title>Reflect：Go 語言的鏡子</title>
+      <link>https://sz9751210.github.io/posts/go-reflect/</link>
+      <pubDate>Fri, 15 Sep 2023 10:00:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-reflect/</guid>
+      <description>go reflect</description>
+    </item>
+    
+    <item>
+      <title>Time：Go語言的時間處理利器</title>
+      <link>https://sz9751210.github.io/posts/go-time/</link>
+      <pubDate>Fri, 15 Sep 2023 10:00:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-time/</guid>
+      <description>go time</description>
+    </item>
+    
+    <item>
+      <title>Fmt：資料處理的好幫手</title>
+      <link>https://sz9751210.github.io/posts/go-fmt/</link>
+      <pubDate>Thu, 14 Sep 2023 15:44:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-fmt/</guid>
+      <description>go fmt</description>
+    </item>
+    
     <item>
       <title>Go語言中Goroutine的等待方式</title>
       <link>https://sz9751210.github.io/posts/go-waitgroup/</link>
