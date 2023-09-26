@@ -9,7 +9,25 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 Sep 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 17:00:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在Go中使用正則表達式</title>
+      <link>https://sz9751210.github.io/posts/go-regexp/</link>
+      <pubDate>Tue, 26 Sep 2023 17:00:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-regexp/</guid>
+      <description>golang regexp</description>
+    </item>
+    
+    <item>
+      <title>如何在 Go 中處理 String</title>
+      <link>https://sz9751210.github.io/posts/go-strings/</link>
+      <pubDate>Fri, 22 Sep 2023 16:45:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-strings/</guid>
+      <description>golang strings</description>
+    </item>
+    
     <item>
       <title>如何在 Go 中操作系統</title>
       <link>https://sz9751210.github.io/posts/go-os-exec/</link>
