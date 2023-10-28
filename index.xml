@@ -9,7 +9,34 @@
       <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Sep 2023 17:00:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Oct 2023 17:10:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在GCP以及AWS設定 remote backend 管理 terraform 狀態檔</title>
+      <link>https://sz9751210.github.io/posts/terraform-backend/</link>
+      <pubDate>Sat, 28 Oct 2023 17:10:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/terraform-backend/</guid>
+      <description>terraform backend</description>
+    </item>
+    
+    <item>
+      <title>如何用 Go 實作一個簡單的 PTT 爬蟲</title>
+      <link>https://sz9751210.github.io/posts/go-ptt-crawler/</link>
+      <pubDate>Wed, 04 Oct 2023 10:30:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-ptt-crawler/</guid>
+      <description>golang ptt crawler</description>
+    </item>
+    
+    <item>
+      <title>Promptui教學：快速建立 Go 語言的交互式介面</title>
+      <link>https://sz9751210.github.io/posts/go-promptui/</link>
+      <pubDate>Wed, 27 Sep 2023 16:48:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/go-promptui/</guid>
+      <description>go promptui</description>
+    </item>
+    
     <item>
       <title>如何在Go中使用正則表達式</title>
       <link>https://sz9751210.github.io/posts/go-regexp/</link>

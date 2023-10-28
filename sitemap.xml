@@ -2,27 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sz9751210.github.io/tags/go/</loc>
-    <lastmod>2023-09-26T20:53:17+08:00</lastmod>
+    <loc>https://sz9751210.github.io/tags/aws/</loc>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/gcp/</loc>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2023-09-26T20:53:17+08:00</lastmod>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2023-09-26T20:53:17+08:00</lastmod>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/posts/go-regexp/</loc>
-    <lastmod>2023-09-26T20:53:17+08:00</lastmod>
+    <loc>https://sz9751210.github.io/tags/terraform/</loc>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/terraform-backend/</loc>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2023-10-28T17:45:32+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/go/</loc>
+    <lastmod>2023-10-04T15:49:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-ptt-crawler/</loc>
+    <lastmod>2023-10-04T15:49:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-promptui/</loc>
+    <lastmod>2023-09-28T08:44:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/go-regexp/</loc>
     <lastmod>2023-09-26T20:53:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -257,11 +287,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/gcp/</loc>
-    <lastmod>2023-08-31T11:01:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/posts/gcp-cloud-nat/</loc>
     <lastmod>2023-04-13T21:08:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -329,11 +354,6 @@
   </url><url>
     <loc>https://sz9751210.github.io/posts/gcp%E8%B7%B3%E6%9D%BF%E6%A9%9Fssh%E7%9B%B8%E9%97%9C%E8%A8%AD%E5%AE%9A/</loc>
     <lastmod>2023-02-09T10:49:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/terraform/</loc>
-    <lastmod>2023-01-23T20:24:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
