@@ -12,7 +12,7 @@
     <language>en</language>
     <lastBuildDate>Tue, 28 Nov 2023 19:42:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>如何使用 Terraform 在 GCP 上建立外部和內部的全球 IP 地址</title>
+      <title>使用 Terraform 在 GCP 上建立外部和內部的全球 IP 地址</title>
       <link>https://sz9751210.github.io/posts/tf-global-ip/</link>
       <pubDate>Tue, 28 Nov 2023 19:42:00 +0800</pubDate>
       
