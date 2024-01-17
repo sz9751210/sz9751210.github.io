@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>使用 Terraform 在 GCP 上建立 Cloud Armor</title>
+      <link>https://sz9751210.github.io/posts/tf-cloud-armor/</link>
+      <pubDate>Sat, 09 Dec 2023 19:11:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/tf-cloud-armor/</guid>
+      <description>terraform gcp cloud armor</description>
+    </item>
+    
+    <item>
       <title>使用 Terraform 在 GCP 上建立外部和內部的全球 IP 地址</title>
       <link>https://sz9751210.github.io/posts/tf-global-ip/</link>
       <pubDate>Tue, 28 Nov 2023 19:42:00 +0800</pubDate>

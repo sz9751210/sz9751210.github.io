@@ -18,27 +18,32 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2024-01-17T10:34:14+08:00</lastmod>
+    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2024-01-17T10:34:14+08:00</lastmod>
+    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/</loc>
-    <lastmod>2024-01-17T10:34:14+08:00</lastmod>
+    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/gcp/</loc>
-    <lastmod>2023-12-09T19:19:50+08:00</lastmod>
+    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/tags/terraform/</loc>
-    <lastmod>2023-12-09T19:19:50+08:00</lastmod>
+    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/tf-cloud-armor/</loc>
+    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
