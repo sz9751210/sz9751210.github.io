@@ -10,29 +10,38 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Nov 2023 19:42:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 19:40:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>gcp</title>
       <link>https://sz9751210.github.io/tags/gcp/</link>
-      <pubDate>Tue, 28 Nov 2023 19:42:00 +0800</pubDate>
+      <pubDate>Sun, 07 Apr 2024 19:40:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/tags/gcp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>terraform</title>
-      <link>https://sz9751210.github.io/tags/terraform/</link>
-      <pubDate>Tue, 28 Nov 2023 19:42:00 +0800</pubDate>
+      <title>monitor</title>
+      <link>https://sz9751210.github.io/tags/monitor/</link>
+      <pubDate>Sun, 07 Apr 2024 19:40:00 +0800</pubDate>
       
-      <guid>https://sz9751210.github.io/tags/terraform/</guid>
+      <guid>https://sz9751210.github.io/tags/monitor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssl</title>
+      <link>https://sz9751210.github.io/tags/ssl/</link>
+      <pubDate>Sun, 07 Apr 2024 19:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
       <link>https://sz9751210.github.io/tags/devops/</link>
-      <pubDate>Sat, 25 Nov 2023 14:14:00 +0800</pubDate>
+      <pubDate>Wed, 03 Jan 2024 16:09:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/tags/devops/</guid>
       <description></description>
@@ -41,9 +50,18 @@
     <item>
       <title>k8s</title>
       <link>https://sz9751210.github.io/tags/k8s/</link>
-      <pubDate>Sat, 25 Nov 2023 14:14:00 +0800</pubDate>
+      <pubDate>Wed, 03 Jan 2024 16:09:00 +0800</pubDate>
       
       <guid>https://sz9751210.github.io/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>https://sz9751210.github.io/tags/terraform/</link>
+      <pubDate>Sat, 09 Dec 2023 19:11:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/tags/terraform/</guid>
       <description></description>
     </item>
     
@@ -242,15 +260,6 @@
       <pubDate>Mon, 17 Oct 2022 14:50:00 +0000</pubDate>
       
       <guid>https://sz9751210.github.io/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>monitor</title>
-      <link>https://sz9751210.github.io/tags/monitor/</link>
-      <pubDate>Mon, 17 Oct 2022 10:41:00 +0000</pubDate>
-      
-      <guid>https://sz9751210.github.io/tags/monitor/</guid>
       <description></description>
     </item>
     

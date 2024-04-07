@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Nov 2023 19:42:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 19:40:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自動化SSL憑證監控與到期通知系統</title>
+      <link>https://sz9751210.github.io/posts/monitor-ssl/</link>
+      <pubDate>Sun, 07 Apr 2024 19:40:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/monitor-ssl/</guid>
+      <description>monitor-ssl</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes HPA：自動化應用擴展的藝術</title>
+      <link>https://sz9751210.github.io/posts/k8s-hpa/</link>
+      <pubDate>Wed, 03 Jan 2024 16:09:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/k8s-hpa/</guid>
+      <description>k8s-hpa</description>
+    </item>
+    
+    <item>
+      <title>使用 Terraform 在 GCP 上建立 Cloud Armor</title>
+      <link>https://sz9751210.github.io/posts/tf-cloud-armor/</link>
+      <pubDate>Sat, 09 Dec 2023 19:11:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/tf-cloud-armor/</guid>
+      <description>terraform gcp cloud armor</description>
+    </item>
+    
     <item>
       <title>使用 Terraform 在 GCP 上建立外部和內部的全球 IP 地址</title>
       <link>https://sz9751210.github.io/posts/tf-global-ip/</link>
