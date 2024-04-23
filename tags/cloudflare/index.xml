@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cloudflare on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/cloudflare/</link>
+    <description>Recent content in cloudflare on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Apr 2024 13:19:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>實現 CloudFlare DNS 解析：使用 Terraform 和 GCS 進行高效配置</title>
+      <link>https://sz9751210.github.io/posts/terraform-cloudflare/</link>
+      <pubDate>Tue, 23 Apr 2024 13:19:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/terraform-cloudflare/</guid>
+      <description>terraform cloudflare</description>
+    </item>
+    
+  </channel>
+</rss>

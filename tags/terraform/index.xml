@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Dec 2023 19:11:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Apr 2024 13:19:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>實現 CloudFlare DNS 解析：使用 Terraform 和 GCS 進行高效配置</title>
+      <link>https://sz9751210.github.io/posts/terraform-cloudflare/</link>
+      <pubDate>Tue, 23 Apr 2024 13:19:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/terraform-cloudflare/</guid>
+      <description>terraform cloudflare</description>
+    </item>
+    
     <item>
       <title>使用 Terraform 在 GCP 上建立 Cloud Armor</title>
       <link>https://sz9751210.github.io/posts/tf-cloud-armor/</link>

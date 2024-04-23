@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sz9751210.github.io/tags/cloudflare/</loc>
+    <lastmod>2024-04-23T22:06:01+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/</loc>
+    <lastmod>2024-04-23T22:06:01+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/</loc>
+    <lastmod>2024-04-23T22:06:01+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/terraform/</loc>
+    <lastmod>2024-04-23T22:06:01+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/terraform-cloudflare/</loc>
+    <lastmod>2024-04-23T22:06:01+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2024-04-23T22:06:01+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://sz9751210.github.io/tags/gcp/</loc>
     <lastmod>2024-04-08T21:32:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -12,27 +42,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2024-04-08T21:32:04+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/tags/ssl/</loc>
     <lastmod>2024-04-08T21:32:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2024-04-08T21:32:04+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/posts/monitor-ssl/</loc>
-    <lastmod>2024-04-08T21:32:04+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/</loc>
     <lastmod>2024-04-08T21:32:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -49,11 +64,6 @@
   </url><url>
     <loc>https://sz9751210.github.io/posts/k8s-hpa/</loc>
     <lastmod>2024-01-17T10:34:14+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/tags/terraform/</loc>
-    <lastmod>2024-01-17T15:12:57+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
