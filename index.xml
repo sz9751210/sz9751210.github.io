@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Apr 2024 13:19:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 15:45:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Telegram 憑證監控機器人 - 實作 EP1 - 讀取 MongoDB Domain Info</title>
+      <link>https://sz9751210.github.io/posts/tg-bot-ep1/</link>
+      <pubDate>Mon, 06 May 2024 15:45:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/tg-bot-ep1/</guid>
+      <description>Telegram 憑證監控機器人 - 實作 EP1 - 讀取 MongoDB Domain Info</description>
+    </item>
+    
     <item>
       <title>實現 CloudFlare DNS 解析：使用 Terraform 和 GCS 進行高效配置</title>
       <link>https://sz9751210.github.io/posts/terraform-cloudflare/</link>
