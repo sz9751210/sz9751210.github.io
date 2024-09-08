@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sz9751210.github.io/tags/mongodb/</loc>
-    <lastmod>2024-06-20T21:03:59+08:00</lastmod>
+    <lastmod>2024-09-08T20:21:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/</loc>
-    <lastmod>2024-06-20T21:03:59+08:00</lastmod>
+    <lastmod>2024-09-08T20:21:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/</loc>
+    <lastmod>2024-09-08T20:21:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/posts/mongodump/</loc>
+    <lastmod>2024-09-08T20:21:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/</loc>
+    <lastmod>2024-09-08T20:21:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sz9751210.github.io/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E5%82%99%E4%BB%BD/</loc>
+    <lastmod>2024-09-08T20:21:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -22,22 +42,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sz9751210.github.io/tags/</loc>
-    <lastmod>2024-06-20T21:03:59+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://sz9751210.github.io/tags/telegram/</loc>
     <lastmod>2024-06-20T21:03:59+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sz9751210.github.io/posts/tg-bot-ep5/</loc>
-    <lastmod>2024-06-20T21:03:59+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sz9751210.github.io/</loc>
     <lastmod>2024-06-20T21:03:59+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

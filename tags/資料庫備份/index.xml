@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>資料庫備份 on 艾倫的程式之旅</title>
+    <link>https://sz9751210.github.io/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E5%82%99%E4%BB%BD/</link>
+    <description>Recent content in 資料庫備份 on 艾倫的程式之旅</description>
+    <image>
+      <url>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sz9751210.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Sep 2024 19:47:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E5%82%99%E4%BB%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入了解 mongodump：MongoDB 資料庫備份與恢復全攻略</title>
+      <link>https://sz9751210.github.io/posts/mongodump/</link>
+      <pubDate>Sun, 08 Sep 2024 19:47:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/mongodump/</guid>
+      <description>深入了解 mongodump：MongoDB 資料庫備份與恢復全攻略</description>
+    </item>
+    
+  </channel>
+</rss>
