@@ -3,7 +3,8 @@
 🎯setup 建立叢集 進入到 MSK 頁面，然後創建叢集 叢集設定 創建時選自訂建立，叢集類型我這邊使用的是已佈建，規格可以選最小的，版本使用 AWS 建議的，區域數量為3，達到高可用，最後叢集組態先使用預設即可 聯網 聯網的部分可以使用 AWS 幫你建立好的預設 VPC，我在前一步選擇三個可用區，因此會需要有三條不同區域的子網，安全群組也選擇預設的即可
 安全 安全這邊選擇 SASL/SCRAM 身分驗證，加密靜態資料選擇使用 AWS 受管金鑰，待會會提到
 SASL/SCRAM(Simple Authentication andSecurity Layer/ Salted Challenge Response Mechanism)，是一種使用帳號和密碼來完成驗證的方式，但它的前提是 Client 端與 Proxy 之間必須使用 TLS 加密。
-監控和標籤 這裡監控只要選基本的即可 接著等到叢集建立完成後開始設定密鑰，建立叢集大概需要15分鐘
+監控和標籤 這裡監控只要選基本的即可
+接著等到叢集建立完成後開始設定密鑰，建立叢集大概需要15分鐘
 建立KMS Key AmazonMSK 使用 Amazon Secret Manager 來儲存 MSK 使用的帳號與密碼。在設定 Secret Manager 之前，必須先在 Amazon KMS(Key Management Service) 創建一個使用者託管的 Key。...</p></div><footer class=entry-footer><span title="2024-09-21 09:31:00 +0800 CST">2024-09-21</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;716 words&nbsp;·&nbsp;Alan</footer></div><figure class=entry-cover><img loading=lazy src=https://sz9751210.github.io/assets/aws-msk/cover.png alt></figure><a class=entry-link aria-label="post link to 如何在 AWS 使用 SASL/SCRAM 建立 MSK" href=https://sz9751210.github.io/posts/aws-msk/></a></article><article class=post-entry><div class=post-info><header class=entry-header><h2>MongoRestore 快速介紹</h2></header><div class=entry-content><p>👨‍💻簡介 上一篇介紹了 mongodump，拿來將我們資料庫的檔案備份到本地，這次則是要來介紹 mongorestore，將本地的資料還原到指定的資料庫。
 🔰基礎介紹 什麼是 MongoRestore? mongorestore 是 MongoDB 提供的一個命令行工具，用於將先前使用 mongodump 產生的備份檔案恢復到資料庫中，支援 BSON 格式的資料恢復。
 MongoRestore 主要功能 恢復資料庫： 可以將備份的整個資料庫恢復。
