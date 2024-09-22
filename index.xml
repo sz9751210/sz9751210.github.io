@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 09:31:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Sep 2024 18:15:00 +0800</lastBuildDate><atom:link href="https://sz9751210.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 aws-cli 快速切換帳號</title>
+      <link>https://sz9751210.github.io/posts/aws-cli-change-account/</link>
+      <pubDate>Sun, 22 Sep 2024 18:15:00 +0800</pubDate>
+      
+      <guid>https://sz9751210.github.io/posts/aws-cli-change-account/</guid>
+      <description>如何在 aws-cli 快速切換帳號</description>
+    </item>
+    
     <item>
       <title>如何在 AWS 使用 SASL/SCRAM 建立 MSK</title>
       <link>https://sz9751210.github.io/posts/aws-msk/</link>
